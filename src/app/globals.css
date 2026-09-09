@@ -1,0 +1,213 @@
+@import "tailwindcss";
+
+/* --------------------------------------------------------------------------
+   Theme strategy
+   --------------------------------------------------------------------------
+   Dark mode is driven by a `data-theme` attribute on <html>, set by an inline
+   script before first paint (src/components/ThemeScript.tsx) so there is no
+   flash of the wrong palette. This overrides Tailwind v4's default
+   prefers-color-scheme behaviour so the manual toggle actually works.
+   -------------------------------------------------------------------------- */
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+/* --------------------------------------------------------------------------
+   Palette
+   --------------------------------------------------------------------------
+   One neutral family (cool zinc) plus exactly one accent (burnt orange).
+   No pure #000000, no pure #ffffff, no second accent anywhere in the app.
+   Accent contrast is verified in docs/DECISIONS.md:
+     #c2410c on #fafafa  ->  5.3:1  (AA for body text)
+     #fb923c on #09090b  ->  8.3:1  (AAA for body text)
+   -------------------------------------------------------------------------- */
+:root {
+  --bg: #fafafa;
+  --bg-sunken: #f4f4f5;
+  --surface: #ffffff;
+  --surface-raised: #fdfdfd;
+  --fg: #18181b;
+  --fg-muted: #52525b;
+  --fg-subtle: #71717a;
+  --hairline: #e4e4e7;
+  --hairline-strong: #d4d4d8;
+  --accent: #c2410c;
+  --accent-hover: #9a3412;
+  --accent-soft: #fff1e8;
+  --accent-fg: #ffffff;
+  --shadow-tint: 24 24 27;
+  --noise-opacity: 0.028;
+}
+
+[data-theme="dark"] {
+  --bg: #09090b;
+  --bg-sunken: #0c0c0e;
+  --surface: #131316;
+  --surface-raised: #1a1a1e;
+  --fg: #f4f4f5;
+  --fg-muted: #a1a1aa;
+  --fg-subtle: #8b8b93;
+  --hairline: #26262b;
+  --hairline-strong: #34343b;
+  --accent: #fb923c;
+  --accent-hover: #fdba74;
+  --accent-soft: #2a1608;
+  --accent-fg: #1c1006;
+  --shadow-tint: 0 0 0;
+  --noise-opacity: 0.045;
+}
+
+/* --------------------------------------------------------------------------
+   Tailwind v4 token bridge.
+   Exposes the CSS variables above as Tailwind utilities, so `bg-surface`,
+   `text-fg-muted`, `border-hairline` and `text-accent` all resolve and all
+   flip correctly under [data-theme="dark"].
+   -------------------------------------------------------------------------- */
+@theme inline {
+  --color-bg: var(--bg);
+  --color-bg-sunken: var(--bg-sunken);
+  --color-surface: var(--surface);
+  --color-surface-raised: var(--surface-raised);
+  --color-fg: var(--fg);
+  --color-fg-muted: var(--fg-muted);
+  --color-fg-subtle: var(--fg-subtle);
+  --color-hairline: var(--hairline);
+  --color-hairline-strong: var(--hairline-strong);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-accent-soft: var(--accent-soft);
+  --color-accent-fg: var(--accent-fg);
+
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, SFMono-Regular, monospace;
+
+  /* SHAPE CONSISTENCY LOCK: exactly one radius scale for the whole page.
+     Rule: interactive controls are full-pill, surfaces and media are 12px,
+     small inline chips are 8px. Nothing else. */
+  --radius-surface: 12px;
+  --radius-chip: 8px;
+}
+
+@layer base {
+  * {
+    border-color: var(--hairline);
+  }
+
+  html {
+    /* Next.js 16 no longer overrides this during navigation, so anchor links
+       inside the page scroll smoothly without fighting the router. */
+    scroll-behavior: smooth;
+    scroll-padding-top: 5.5rem;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--bg);
+    color: var(--fg);
+    font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+    font-feature-settings: "cv11", "ss01";
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background-color: var(--accent);
+    color: var(--accent-fg);
+  }
+
+  /* One focus treatment everywhere. Visible in both themes, never removed. */
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    text-wrap: balance;
+    letter-spacing: -0.03em;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+}
+
+@layer utilities {
+  .max-shell {
+    max-width: 1400px;
+    margin-inline: auto;
+  }
+
+  .measure {
+    max-width: 65ch;
+  }
+
+  /* Tinted shadow, never a pure-black drop shadow on a light background. */
+  .shadow-tinted {
+    box-shadow:
+      0 1px 2px rgb(var(--shadow-tint) / 0.04),
+      0 8px 24px -12px rgb(var(--shadow-tint) / 0.14);
+  }
+
+  .shadow-tinted-lg {
+    box-shadow:
+      0 2px 4px rgb(var(--shadow-tint) / 0.05),
+      0 24px 48px -24px rgb(var(--shadow-tint) / 0.24);
+  }
+
+  /* Physical press feedback for every interactive control. */
+  .press {
+    transition:
+      transform 160ms cubic-bezier(0.16, 1, 0.3, 1),
+      background-color 200ms ease,
+      border-color 200ms ease,
+      color 200ms ease;
+  }
+
+  .press:active {
+    transform: translateY(1px) scale(0.985);
+  }
+
+  .hairline-t {
+    border-top: 1px solid var(--hairline);
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Fixed film grain.
+   Applied to a single fixed, pointer-events-none element (mounted in
+   layout.tsx), never to a scrolling container. Repainting a grain layer on a
+   scroller destroys mobile frame rate.
+   -------------------------------------------------------------------------- */
+.grain-layer {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  pointer-events: none;
+  opacity: var(--noise-opacity);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  mix-blend-mode: overlay;
+}
+
+/* --------------------------------------------------------------------------
+   Reduced motion.
+   MOTION_INTENSITY is 6, so honouring this preference is mandatory, not a
+   courtesy. Every entrance, parallax and hover transition degrades to a
+   no-op; content stays fully visible.
+   -------------------------------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
