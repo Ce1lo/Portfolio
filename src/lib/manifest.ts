@@ -6,6 +6,12 @@ import rawManifest from "@/generated/image-manifest.json";
  * Declared by hand rather than inferred from the JSON import, because an empty
  * manifest infers `images: never[]` and every consumer would then have to cast.
  */
+export type AlbumMeta = {
+  slug: string;
+  name: string;
+  count: number;
+};
+
 export type PortfolioImage = {
   id: string;
   slug: string;
@@ -25,9 +31,13 @@ export type PortfolioImage = {
   bytes: { avif: number; webp: number };
   createdAt: string;
   syncedAt: string;
-  // Curation & classification extensions
+  // Album & STT Metadata
+  albumName?: string;
+  albumSlug?: string;
+  itemIndex?: number;
+  indexTag?: string;
   customTitle?: string;
-  category?: "Portrait" | "Group" | "Landscape" | "Moment" | "Nocturne" | string;
+  category?: string;
   detectedTheme?: string;
   sortOrder?: number;
 };
@@ -35,6 +45,7 @@ export type PortfolioImage = {
 export type ImageManifest = {
   generatedAt: string | null;
   count: number;
+  albums?: AlbumMeta[];
   source: { provider: string; folderId: string };
   publicBase: string;
   images: PortfolioImage[];
@@ -45,6 +56,7 @@ const typed = rawManifest as Partial<ImageManifest>;
 export const manifest: ImageManifest = {
   generatedAt: typed.generatedAt ?? null,
   count: typed.count ?? 0,
+  albums: typed.albums ?? [],
   source: typed.source ?? { provider: "google-drive", folderId: "" },
   publicBase: typed.publicBase ?? "/images",
   images: Array.isArray(typed.images) ? typed.images : [],
@@ -52,9 +64,35 @@ export const manifest: ImageManifest = {
 
 export const isSynced = manifest.images.length > 0 && manifest.generatedAt !== null;
 
-/** Every synced image, newest first (the sync script already sorts, this re-asserts it). */
+/** Danh sách tất cả các Album sự kiện có trong kho ảnh */
+export function getAlbums(): AlbumMeta[] {
+  if (manifest.albums && manifest.albums.length > 0) {
+    return manifest.albums;
+  }
+  // Fallback nếu manifest chưa có mảng albums
+  const map = new Map<string, AlbumMeta>();
+  for (const img of manifest.images) {
+    const slug = img.albumSlug || "highlights";
+    const name = img.albumName || "Highlights";
+    const existing = map.get(slug);
+    if (existing) {
+      existing.count += 1;
+    } else {
+      map.set(slug, { slug, name, count: 1 });
+    }
+  }
+  return Array.from(map.values());
+}
+
+/** Lấy tất cả ảnh thuộc một Album cụ thể */
+export function getImagesByAlbum(albumSlug: string): PortfolioImage[] {
+  if (!albumSlug || albumSlug === "all") return getAllImages();
+  return manifest.images.filter((img) => (img.albumSlug || "highlights") === albumSlug);
+}
+
+/** Every synced image, newest first or by album index */
 export function getAllImages(): PortfolioImage[] {
-  return [...manifest.images].sort((a, b) => String(b.createdAt).localeCompare(String(a.createdAt)));
+  return [...manifest.images];
 }
 
 /**

@@ -392,11 +392,44 @@ async function main() {
     written.push(`${file.name} [${src}] -> avif ${(variants.avif.byteLength / 1024).toFixed(1)} KB (saved ~${savedKb} KB)`);
   });
 
-  kept.sort((a, b) => String(b.createdAt).localeCompare(String(a.createdAt)));
+  kept.sort((a, b) => {
+    // Sắp xếp theo Album trước, sau đó theo tên file gốc hoặc thời gian tạo
+    const folderCompare = String(a.source.folderPath ?? "").localeCompare(String(b.source.folderPath ?? ""));
+    if (folderCompare !== 0) return folderCompare;
+    return String(a.source.name).localeCompare(String(b.source.name));
+  });
+
+  // Tự động gán Album name, Album slug và STT cho từng ảnh theo thư mục
+  const albumCounters = new Map();
+  for (const img of kept) {
+    const rawFolder = img.source.folderPath ? img.source.folderPath.trim() : "";
+    const albumName = rawFolder.length > 0 ? rawFolder.split("/").pop() : "Highlights";
+    const albumSlug = slugify(albumName);
+
+    const currentCount = (albumCounters.get(albumSlug) ?? 0) + 1;
+    albumCounters.set(albumSlug, currentCount);
+
+    const indexNumber = String(currentCount).padStart(2, "0");
+
+    img.albumName = albumName;
+    img.albumSlug = albumSlug;
+    img.itemIndex = currentCount;
+    img.indexTag = `#${indexNumber}`;
+    // Tự động gán tiêu đề có STT nếu chưa đặt tên riêng
+    img.customTitle = `${albumName} #${indexNumber}`;
+  }
 
   const manifest = {
     generatedAt: new Date().toISOString(),
     count: kept.length,
+    albums: Array.from(albumCounters.entries()).map(([slug, count]) => {
+      const sample = kept.find((i) => i.albumSlug === slug);
+      return {
+        slug,
+        name: sample?.albumName ?? slug,
+        count,
+      };
+    }),
     source: { provider: "google-drive", folderId: cfg.folderId },
     publicBase: "/images",
     images: kept,

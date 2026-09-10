@@ -8,789 +8,6 @@
   "publicBase": "/images",
   "images": [
     {
-      "id": "c9be9d48ec",
-      "slug": "dsc02752",
-      "source": {
-        "fileId": "1dxEr04OIDymG6h4Dzp4xo40w9iHon3ca",
-        "name": "DSC02752.png",
-        "folderPath": "",
-        "md5": "a0d40e8b0811c401d9268154afd01bc5",
-        "mimeType": "image/png",
-        "sizeBytes": 24688599,
-        "modifiedTime": "2026-01-26T14:07:06.000Z"
-      },
-      "avif": "images/dsc02752-c9be9d48ec.avif",
-      "webp": "images/dsc02752-c9be9d48ec.webp",
-      "width": 1920,
-      "height": 1080,
-      "bytes": {
-        "avif": 112839,
-        "webp": 198844
-      },
-      "createdAt": "2026-09-09T17:03:48.879Z",
-      "syncedAt": "2026-09-10T02:23:05.618Z",
-      "category": "Moment",
-      "detectedTheme": "Phong cảnh / Không gian (Landscape)",
-      "customTitle": "Delotto-1",
-      "sortOrder": 0
-    },
-    {
-      "id": "25aadaa590",
-      "slug": "dsc03226",
-      "source": {
-        "fileId": "1l5YyKDKyqRvYwlCSCReOeJ4W5paJFHRX",
-        "name": "DSC03226.JPG",
-        "folderPath": "",
-        "md5": "0872a197391650f3846e019e21cc375e",
-        "mimeType": "image/jpeg",
-        "sizeBytes": 14090781,
-        "modifiedTime": "2026-01-24T22:14:46.000Z"
-      },
-      "avif": "images/dsc03226-25aadaa590.avif",
-      "webp": "images/dsc03226-25aadaa590.webp",
-      "width": 1920,
-      "height": 1280,
-      "bytes": {
-        "avif": 83949,
-        "webp": 125856
-      },
-      "createdAt": "2026-09-09T17:03:38.250Z",
-      "syncedAt": "2026-09-10T02:23:05.619Z",
-      "category": "Moment",
-      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
-      "customTitle": "Delotto-2",
-      "sortOrder": 0
-    },
-    {
-      "id": "97faa7f0de",
-      "slug": "dsc03017",
-      "source": {
-        "fileId": "1JcAdIlwKy7vYjAKGRyty6c7nxpfOGBwK",
-        "name": "DSC03017.JPG",
-        "folderPath": "",
-        "md5": "293855081d38f0ef3c3220c9a283af2e",
-        "mimeType": "image/jpeg",
-        "sizeBytes": 14104882,
-        "modifiedTime": "2026-01-24T21:04:26.000Z"
-      },
-      "avif": "images/dsc03017-97faa7f0de.avif",
-      "webp": "images/dsc03017-97faa7f0de.webp",
-      "width": 1920,
-      "height": 1280,
-      "bytes": {
-        "avif": 60326,
-        "webp": 84532
-      },
-      "createdAt": "2026-09-09T17:03:26.158Z",
-      "syncedAt": "2026-09-10T02:24:14.888Z",
-      "category": "Nocturne",
-      "detectedTheme": "Đêm / Ánh sáng tự nhiên",
-      "customTitle": "Delotto-3",
-      "sortOrder": 0
-    },
-    {
-      "id": "30ddd7372f",
-      "slug": "dsc03022",
-      "source": {
-        "fileId": "1CZ7NJqr4vBWgeojfpfUZqufNXU9_RJkt",
-        "name": "DSC03022.JPG",
-        "folderPath": "",
-        "md5": "54013a9409d2962a96738c33f4ac5f85",
-        "mimeType": "image/jpeg",
-        "sizeBytes": 15404639,
-        "modifiedTime": "2026-01-24T21:05:04.000Z"
-      },
-      "avif": "images/dsc03022-30ddd7372f.avif",
-      "webp": "images/dsc03022-30ddd7372f.webp",
-      "width": 1920,
-      "height": 1280,
-      "bytes": {
-        "avif": 83277,
-        "webp": 130944
-      },
-      "createdAt": "2026-09-09T17:03:18.360Z",
-      "syncedAt": "2026-09-10T02:24:04.634Z",
-      "category": "Group",
-      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
-      "customTitle": "DSC03022",
-      "sortOrder": 0
-    },
-    {
-      "id": "f2849c6c0d",
-      "slug": "dsc03049",
-      "source": {
-        "fileId": "1p7m6-g-5KiOO7AzVzT8jtXHnaxuvBR6r",
-        "name": "DSC03049.JPG",
-        "folderPath": "",
-        "md5": "9c228f060bd07ce6f442f07ca6adede5",
-        "mimeType": "image/jpeg",
-        "sizeBytes": 14000469,
-        "modifiedTime": "2026-01-24T21:09:46.000Z"
-      },
-      "avif": "images/dsc03049-f2849c6c0d.avif",
-      "webp": "images/dsc03049-f2849c6c0d.webp",
-      "width": 1920,
-      "height": 1280,
-      "bytes": {
-        "avif": 82058,
-        "webp": 132206
-      },
-      "createdAt": "2026-09-09T17:03:10.196Z",
-      "syncedAt": "2026-09-10T02:23:22.121Z",
-      "category": "Group",
-      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
-      "customTitle": "DSC03049",
-      "sortOrder": 0
-    },
-    {
-      "id": "2cb427d16b",
-      "slug": "dsc03074",
-      "source": {
-        "fileId": "12RelPOsBRhc5zhlWk3TKvX8hRp_yGJc6",
-        "name": "DSC03074.JPG",
-        "folderPath": "",
-        "md5": "02b953257128b71830b0c8d2197aecb4",
-        "mimeType": "image/jpeg",
-        "sizeBytes": 13713274,
-        "modifiedTime": "2026-01-24T21:20:32.000Z"
-      },
-      "avif": "images/dsc03074-2cb427d16b.avif",
-      "webp": "images/dsc03074-2cb427d16b.webp",
-      "width": 1920,
-      "height": 1280,
-      "bytes": {
-        "avif": 70662,
-        "webp": 111902
-      },
-      "createdAt": "2026-09-09T17:03:02.821Z",
-      "syncedAt": "2026-09-10T02:23:05.619Z",
-      "category": "Group",
-      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
-      "customTitle": "DSC03074",
-      "sortOrder": 0
-    },
-    {
-      "id": "eb5fa021d5",
-      "slug": "dsc03038",
-      "source": {
-        "fileId": "13xxzgbiBLLaOoZf2ZDvwK1W1-9r00dCb",
-        "name": "DSC03038.JPG",
-        "folderPath": "",
-        "md5": "ca9c600d9fec29a1246f8d7ffc9077a2",
-        "mimeType": "image/jpeg",
-        "sizeBytes": 12995627,
-        "modifiedTime": "2026-01-24T21:08:06.000Z"
-      },
-      "avif": "images/dsc03038-eb5fa021d5.avif",
-      "webp": "images/dsc03038-eb5fa021d5.webp",
-      "width": 1920,
-      "height": 1280,
-      "bytes": {
-        "avif": 52290,
-        "webp": 76416
-      },
-      "createdAt": "2026-09-09T17:02:55.210Z",
-      "syncedAt": "2026-09-10T02:23:33.659Z",
-      "category": "Nocturne",
-      "detectedTheme": "Đêm / Ánh sáng tự nhiên",
-      "customTitle": "DSC03038",
-      "sortOrder": 0
-    },
-    {
-      "id": "2e5ccae4cd",
-      "slug": "dsc03044",
-      "source": {
-        "fileId": "1NdnS8v2ht0Hy3-ibJFIOJS7gtcYmnTgu",
-        "name": "DSC03044.JPG",
-        "folderPath": "",
-        "md5": "b903f438a7c5abc31d38684e8d3f5abe",
-        "mimeType": "image/jpeg",
-        "sizeBytes": 12178583,
-        "modifiedTime": "2026-01-24T21:08:58.000Z"
-      },
-      "avif": "images/dsc03044-2e5ccae4cd.avif",
-      "webp": "images/dsc03044-2e5ccae4cd.webp",
-      "width": 1920,
-      "height": 1280,
-      "bytes": {
-        "avif": 38148,
-        "webp": 64870
-      },
-      "createdAt": "2026-09-09T17:02:46.054Z",
-      "syncedAt": "2026-09-10T02:23:32.366Z",
-      "category": "Group",
-      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
-      "customTitle": "DSC03044",
-      "sortOrder": 0
-    },
-    {
-      "id": "54ad3fc9a4",
-      "slug": "dsc02864",
-      "source": {
-        "fileId": "1fmCggvBzNVrfFAy_B7Q4wGnZlszp3EmD",
-        "name": "DSC02864.JPG",
-        "folderPath": "",
-        "md5": "e685773ff04ef78adb198c1b7b2c2da4",
-        "mimeType": "image/jpeg",
-        "sizeBytes": 16764766,
-        "modifiedTime": "2026-01-24T20:01:42.000Z"
-      },
-      "avif": "images/dsc02864-54ad3fc9a4.avif",
-      "webp": "images/dsc02864-54ad3fc9a4.webp",
-      "width": 1920,
-      "height": 1280,
-      "bytes": {
-        "avif": 109312,
-        "webp": 174362
-      },
-      "createdAt": "2026-09-09T17:02:35.926Z",
-      "syncedAt": "2026-09-10T02:24:23.468Z",
-      "category": "Group",
-      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
-      "customTitle": "DSC02864",
-      "sortOrder": 0
-    },
-    {
-      "id": "a80a70d4ef",
-      "slug": "up-9",
-      "source": {
-        "fileId": "1dE1WzZXOlU-Ek5bOhj_DN1aXC8vX5jMN",
-        "name": "UP(9).JPG",
-        "folderPath": "",
-        "md5": "5b503e04a92fa6e2c49138d66029a974",
-        "mimeType": "image/jpeg",
-        "sizeBytes": 6552328,
-        "modifiedTime": "2025-11-09T19:57:16.000Z"
-      },
-      "avif": "images/up-9-a80a70d4ef.avif",
-      "webp": "images/up-9-a80a70d4ef.webp",
-      "width": 1920,
-      "height": 1280,
-      "bytes": {
-        "avif": 49682,
-        "webp": 73874
-      },
-      "createdAt": "2026-09-09T17:02:24.562Z",
-      "syncedAt": "2026-09-10T02:25:20.869Z",
-      "category": "Group",
-      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
-      "customTitle": "UP(9)",
-      "sortOrder": 0
-    },
-    {
-      "id": "4f407a0215",
-      "slug": "dsc02942",
-      "source": {
-        "fileId": "1buQUIzeDiFYLtE1GLUWMT0govYCMVJNB",
-        "name": "DSC02942.JPG",
-        "folderPath": "",
-        "md5": "63c91fb6780ad9e5ed30b0620f4095e6",
-        "mimeType": "image/jpeg",
-        "sizeBytes": 15466595,
-        "modifiedTime": "2026-01-24T20:42:12.000Z"
-      },
-      "avif": "images/dsc02942-4f407a0215.avif",
-      "webp": "images/dsc02942-4f407a0215.webp",
-      "width": 1920,
-      "height": 1280,
-      "bytes": {
-        "avif": 89246,
-        "webp": 137702
-      },
-      "createdAt": "2026-09-09T17:02:05.539Z",
-      "syncedAt": "2026-09-10T02:24:18.884Z",
-      "category": "Group",
-      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
-      "customTitle": "DSC02942",
-      "sortOrder": 0
-    },
-    {
-      "id": "c44c85d51f",
-      "slug": "dsc02871",
-      "source": {
-        "fileId": "18f2SiloDVhXjWbWnV9nSafszYM4kWwVY",
-        "name": "DSC02871.JPG",
-        "folderPath": "",
-        "md5": "8d0b24d040667b74aa431b524a3ccb8f",
-        "mimeType": "image/jpeg",
-        "sizeBytes": 17208139,
-        "modifiedTime": "2026-01-24T20:08:30.000Z"
-      },
-      "avif": "images/dsc02871-c44c85d51f.avif",
-      "webp": "images/dsc02871-c44c85d51f.webp",
-      "width": 1920,
-      "height": 1280,
-      "bytes": {
-        "avif": 112695,
-        "webp": 177430
-      },
-      "createdAt": "2026-09-09T17:01:56.788Z",
-      "syncedAt": "2026-09-10T02:24:20.390Z",
-      "category": "Group",
-      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
-      "customTitle": "DSC02871",
-      "sortOrder": 0
-    },
-    {
-      "id": "300a21c9b1",
-      "slug": "dsc02767",
-      "source": {
-        "fileId": "11-gP_NWid9qTJ5OCdaWDMsw6b7Rj4K7c",
-        "name": "DSC02767.JPG",
-        "folderPath": "",
-        "md5": "797a6b6ec529dbc22d094fef73394c65",
-        "mimeType": "image/jpeg",
-        "sizeBytes": 15773525,
-        "modifiedTime": "2026-01-24T18:45:42.000Z"
-      },
-      "avif": "images/dsc02767-300a21c9b1.avif",
-      "webp": "images/dsc02767-300a21c9b1.webp",
-      "width": 1920,
-      "height": 1280,
-      "bytes": {
-        "avif": 65963,
-        "webp": 105694
-      },
-      "createdAt": "2026-09-09T17:01:50.707Z",
-      "syncedAt": "2026-09-10T02:24:46.210Z",
-      "category": "Group",
-      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
-      "customTitle": "DSC02767",
-      "sortOrder": 0
-    },
-    {
-      "id": "9c9cdf3266",
-      "slug": "dsc02850",
-      "source": {
-        "fileId": "1glrDM3k9VvA9qmAGcrros6Ggqk4OxjiL",
-        "name": "DSC02850.JPG",
-        "folderPath": "",
-        "md5": "049bf351e3feedd003f1b3b51bbfcf0c",
-        "mimeType": "image/jpeg",
-        "sizeBytes": 13003524,
-        "modifiedTime": "2026-01-24T19:45:42.000Z"
-      },
-      "avif": "images/dsc02850-9c9cdf3266.avif",
-      "webp": "images/dsc02850-9c9cdf3266.webp",
-      "width": 1920,
-      "height": 1280,
-      "bytes": {
-        "avif": 25226,
-        "webp": 42948
-      },
-      "createdAt": "2026-09-09T17:01:41.494Z",
-      "syncedAt": "2026-09-10T02:24:34.743Z",
-      "category": "Group",
-      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
-      "customTitle": "DSC02850",
-      "sortOrder": 0
-    },
-    {
-      "id": "a5bac36014",
-      "slug": "up-7",
-      "source": {
-        "fileId": "1i6rBbO-vBHZgv4EAbZXumTK1DUZnvxTW",
-        "name": "UP(7).JPG",
-        "folderPath": "",
-        "md5": "e2934e8d7d3b43c4c25115431e45dc1b",
-        "mimeType": "image/jpeg",
-        "sizeBytes": 3386903,
-        "modifiedTime": "2025-11-09T20:09:56.000Z"
-      },
-      "avif": "images/up-7-a5bac36014.avif",
-      "webp": "images/up-7-a5bac36014.webp",
-      "width": 1920,
-      "height": 1280,
-      "bytes": {
-        "avif": 46806,
-        "webp": 70118
-      },
-      "createdAt": "2026-09-09T17:01:33.156Z",
-      "syncedAt": "2026-09-10T02:25:01.563Z",
-      "category": "Nocturne",
-      "detectedTheme": "Đêm / Ánh sáng tự nhiên",
-      "customTitle": "UP(7)",
-      "sortOrder": 0
-    },
-    {
-      "id": "68de981ebf",
-      "slug": "up-8",
-      "source": {
-        "fileId": "1v3Ar98V_3IhjSkAjSmW5X5eHZ38DzCK2",
-        "name": "UP(8).JPG",
-        "folderPath": "",
-        "md5": "a1d8b6eab0a547391455014690a9d9f6",
-        "mimeType": "image/jpeg",
-        "sizeBytes": 6165379,
-        "modifiedTime": "2025-11-09T19:58:10.000Z"
-      },
-      "avif": "images/up-8-68de981ebf.avif",
-      "webp": "images/up-8-68de981ebf.webp",
-      "width": 1920,
-      "height": 1280,
-      "bytes": {
-        "avif": 138290,
-        "webp": 261622
-      },
-      "createdAt": "2026-09-09T17:01:25.590Z",
-      "syncedAt": "2026-09-10T02:25:13.613Z",
-      "category": "Group",
-      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
-      "customTitle": "UP(8)",
-      "sortOrder": 0
-    },
-    {
-      "id": "af15794faa",
-      "slug": "up-6",
-      "source": {
-        "fileId": "1efxAt1m4nQpvwOZuO-u4_Yy8UxGBAFH-",
-        "name": "UP(6).JPG",
-        "folderPath": "",
-        "md5": "4687cc5a80c223110ea586c7d644a132",
-        "mimeType": "image/jpeg",
-        "sizeBytes": 3129945,
-        "modifiedTime": "2025-11-09T20:08:38.000Z"
-      },
-      "avif": "images/up-6-af15794faa.avif",
-      "webp": "images/up-6-af15794faa.webp",
-      "width": 1920,
-      "height": 1280,
-      "bytes": {
-        "avif": 59607,
-        "webp": 87450
-      },
-      "createdAt": "2026-09-09T17:00:55.929Z",
-      "syncedAt": "2026-09-10T02:25:07.619Z",
-      "category": "Group",
-      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
-      "customTitle": "UP(6)",
-      "sortOrder": 0
-    },
-    {
-      "id": "c87f205660",
-      "slug": "up-5",
-      "source": {
-        "fileId": "1d0Mnbs1v-8MrJuO-OioSzRSzz9SeKCDb",
-        "name": "UP(5).JPG",
-        "folderPath": "",
-        "md5": "fbaa58369f5bc1c6576733d4888dd309",
-        "mimeType": "image/jpeg",
-        "sizeBytes": 17490398,
-        "modifiedTime": "2025-11-09T19:54:12.000Z"
-      },
-      "avif": "images/up-5-c87f205660.avif",
-      "webp": "images/up-5-c87f205660.webp",
-      "width": 1920,
-      "height": 1280,
-      "bytes": {
-        "avif": 99995,
-        "webp": 157252
-      },
-      "createdAt": "2026-09-09T17:00:48.755Z",
-      "syncedAt": "2026-09-10T02:25:30.763Z",
-      "category": "Group",
-      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
-      "customTitle": "UP(5)",
-      "sortOrder": 0
-    },
-    {
-      "id": "93fd02ab26",
-      "slug": "dsc02848",
-      "source": {
-        "fileId": "1itw2N-kZ_fRkPG6hyZvvmsauR4f5fUKu",
-        "name": "DSC02848.JPG",
-        "folderPath": "",
-        "md5": "a6bfd5509a3498461a28516f79f4535e",
-        "mimeType": "image/jpeg",
-        "sizeBytes": 13274328,
-        "modifiedTime": "2026-01-24T19:44:50.000Z"
-      },
-      "avif": "images/dsc02848-93fd02ab26.avif",
-      "webp": "images/dsc02848-93fd02ab26.webp",
-      "width": 1920,
-      "height": 1280,
-      "bytes": {
-        "avif": 31856,
-        "webp": 54120
-      },
-      "createdAt": "2026-09-09T17:00:38.906Z",
-      "syncedAt": "2026-09-10T02:24:37.741Z",
-      "category": "Group",
-      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
-      "customTitle": "DSC02848",
-      "sortOrder": 0
-    },
-    {
-      "id": "d5316ad835",
-      "slug": "dsc02800",
-      "source": {
-        "fileId": "1K3OpD1AHLH_CX2SxaNLafS5A8qGM2Vfp",
-        "name": "DSC02800.JPG",
-        "folderPath": "",
-        "md5": "4d84a56d3a63deb4d5ca2d46edc2b08a",
-        "mimeType": "image/jpeg",
-        "sizeBytes": 15800990,
-        "modifiedTime": "2026-01-24T18:58:08.000Z"
-      },
-      "avif": "images/dsc02800-d5316ad835.avif",
-      "webp": "images/dsc02800-d5316ad835.webp",
-      "width": 1920,
-      "height": 1280,
-      "bytes": {
-        "avif": 123245,
-        "webp": 209690
-      },
-      "createdAt": "2026-09-09T17:00:30.652Z",
-      "syncedAt": "2026-09-10T02:24:46.057Z",
-      "category": "Group",
-      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
-      "customTitle": "DSC02800",
-      "sortOrder": 0
-    },
-    {
-      "id": "47a52f6c87",
-      "slug": "up-4",
-      "source": {
-        "fileId": "1pL9-RJmQVVt-8LYZ5k90SPOaZGQzxi1Y",
-        "name": "UP(4).JPG",
-        "folderPath": "",
-        "md5": "c2e2dba17dd3d78cda829d298c76cbe5",
-        "mimeType": "image/jpeg",
-        "sizeBytes": 2650698,
-        "modifiedTime": "2025-11-09T20:19:02.000Z"
-      },
-      "avif": "images/up-4-47a52f6c87.avif",
-      "webp": "images/up-4-47a52f6c87.webp",
-      "width": 1920,
-      "height": 1280,
-      "bytes": {
-        "avif": 43855,
-        "webp": 63710
-      },
-      "createdAt": "2026-09-09T17:00:23.127Z",
-      "syncedAt": "2026-09-10T02:24:59.479Z",
-      "category": "Nocturne",
-      "detectedTheme": "Đêm / Ánh sáng tự nhiên",
-      "customTitle": "UP(4)",
-      "sortOrder": 0
-    },
-    {
-      "id": "31860ed847",
-      "slug": "dsc02765",
-      "source": {
-        "fileId": "18HThiJV5K9V8hfXJOjAxhIPqJF8mbNw_",
-        "name": "DSC02765.JPG",
-        "folderPath": "",
-        "md5": "ab5c5f12909229a1b956c1bd98768e2b",
-        "mimeType": "image/jpeg",
-        "sizeBytes": 16178927,
-        "modifiedTime": "2026-01-24T18:43:42.000Z"
-      },
-      "avif": "images/dsc02765-31860ed847.avif",
-      "webp": "images/dsc02765-31860ed847.webp",
-      "width": 1920,
-      "height": 1280,
-      "bytes": {
-        "avif": 140146,
-        "webp": 246206
-      },
-      "createdAt": "2026-09-09T17:00:14.813Z",
-      "syncedAt": "2026-09-10T02:24:47.235Z",
-      "category": "Group",
-      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
-      "customTitle": "DSC02765",
-      "sortOrder": 0
-    },
-    {
-      "id": "4b688a6998",
-      "slug": "dsc03231",
-      "source": {
-        "fileId": "12MrRWiVDFDfChxfNPoSwUqa-_5bjgFC_",
-        "name": "DSC03231.JPG",
-        "folderPath": "",
-        "md5": "a2dbd0b4808776a84768f12cec01c321",
-        "mimeType": "image/jpeg",
-        "sizeBytes": 14451802,
-        "modifiedTime": "2026-01-24T22:15:20.000Z"
-      },
-      "avif": "images/dsc03231-4b688a6998.avif",
-      "webp": "images/dsc03231-4b688a6998.webp",
-      "width": 1920,
-      "height": 1280,
-      "bytes": {
-        "avif": 84739,
-        "webp": 127976
-      },
-      "createdAt": "2026-09-09T17:00:08.567Z",
-      "syncedAt": "2026-09-10T02:23:05.619Z",
-      "category": "Group",
-      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
-      "customTitle": "DSC03231",
-      "sortOrder": 0
-    },
-    {
-      "id": "8f5ee9c095",
-      "slug": "up-3",
-      "source": {
-        "fileId": "1IFGXbuxTmpt_373hu5xhpatzQD0EhX4S",
-        "name": "UP(3).JPG",
-        "folderPath": "",
-        "md5": "8a3528327fcd334f9de94c301b465772",
-        "mimeType": "image/jpeg",
-        "sizeBytes": 7347854,
-        "modifiedTime": "2025-11-09T19:55:14.000Z"
-      },
-      "avif": "images/up-3-8f5ee9c095.avif",
-      "webp": "images/up-3-8f5ee9c095.webp",
-      "width": 1920,
-      "height": 1280,
-      "bytes": {
-        "avif": 59737,
-        "webp": 90844
-      },
-      "createdAt": "2026-09-09T16:59:57.831Z",
-      "syncedAt": "2026-09-10T02:25:21.108Z",
-      "category": "Group",
-      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
-      "customTitle": "UP(3)",
-      "sortOrder": 0
-    },
-    {
-      "id": "6b4127f620",
-      "slug": "up-2",
-      "source": {
-        "fileId": "11W9a9nsDcX6SbRh2eaKa-AN7NDi7C4t1",
-        "name": "UP(2).JPG",
-        "folderPath": "",
-        "md5": "1ab6b051bae4fbb2f4a19f1d3b4ab117",
-        "mimeType": "image/jpeg",
-        "sizeBytes": 3564721,
-        "modifiedTime": "2025-11-09T20:00:06.000Z"
-      },
-      "avif": "images/up-2-6b4127f620.avif",
-      "webp": "images/up-2-6b4127f620.webp",
-      "width": 1920,
-      "height": 1280,
-      "bytes": {
-        "avif": 51658,
-        "webp": 91874
-      },
-      "createdAt": "2026-09-09T16:59:50.524Z",
-      "syncedAt": "2026-09-10T02:25:13.229Z",
-      "category": "Nocturne",
-      "detectedTheme": "Đêm / Ánh sáng tự nhiên",
-      "customTitle": "UP(2)",
-      "sortOrder": 0
-    },
-    {
-      "id": "52499aed2d",
-      "slug": "up-1",
-      "source": {
-        "fileId": "1eQ2HuTBOwGOt0Rf-NASXKGAsS4bz5_aN",
-        "name": "UP(1).JPG",
-        "folderPath": "",
-        "md5": "3d89f191ec8acbec4f50eca96734223f",
-        "mimeType": "image/jpeg",
-        "sizeBytes": 3242828,
-        "modifiedTime": "2025-11-09T20:09:40.000Z"
-      },
-      "avif": "images/up-1-52499aed2d.avif",
-      "webp": "images/up-1-52499aed2d.webp",
-      "width": 1920,
-      "height": 1280,
-      "bytes": {
-        "avif": 46315,
-        "webp": 79070
-      },
-      "createdAt": "2026-09-09T16:59:43.255Z",
-      "syncedAt": "2026-09-10T02:25:06.942Z",
-      "category": "Group",
-      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
-      "customTitle": "UP(1)",
-      "sortOrder": 0
-    },
-    {
-      "id": "920c36e76a",
-      "slug": "dsc02841",
-      "source": {
-        "fileId": "1hZKghTp9s9KtqYGiOJSQmbaCsaLNI-mH",
-        "name": "DSC02841.JPG",
-        "folderPath": "",
-        "md5": "e83f29383c48787eba7bd727f8dba76e",
-        "mimeType": "image/jpeg",
-        "sizeBytes": 3037489,
-        "modifiedTime": "2025-11-07T23:23:00.000Z"
-      },
-      "avif": "images/dsc02841-920c36e76a.avif",
-      "webp": "images/dsc02841-920c36e76a.webp",
-      "width": 1920,
-      "height": 1280,
-      "bytes": {
-        "avif": 41771,
-        "webp": 65342
-      },
-      "createdAt": "2026-09-09T16:59:33.319Z",
-      "syncedAt": "2026-09-10T02:25:31.270Z",
-      "category": "Group",
-      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
-      "customTitle": "DSC02841",
-      "sortOrder": 0
-    },
-    {
-      "id": "5867474cd9",
-      "slug": "dsc02751",
-      "source": {
-        "fileId": "1w8ptQpcN8XWG2B_7BcbIkXhTRpk8o2nY",
-        "name": "DSC02751.JPG",
-        "folderPath": "",
-        "md5": "d783ba838905054ed30a7ea58d1b2b14",
-        "mimeType": "image/jpeg",
-        "sizeBytes": 2593335,
-        "modifiedTime": "2025-11-07T23:11:48.000Z"
-      },
-      "avif": "images/dsc02751-5867474cd9.avif",
-      "webp": "images/dsc02751-5867474cd9.webp",
-      "width": 1920,
-      "height": 1280,
-      "bytes": {
-        "avif": 35328,
-        "webp": 53080
-      },
-      "createdAt": "2026-09-09T16:59:28.773Z",
-      "syncedAt": "2026-09-10T02:25:35.187Z",
-      "category": "Nocturne",
-      "detectedTheme": "Đêm / Ánh sáng tự nhiên",
-      "customTitle": "DSC02751",
-      "sortOrder": 0
-    },
-    {
-      "id": "dbacfa0c19",
-      "slug": "dsc02734",
-      "source": {
-        "fileId": "1rsSOCV8nh3K5HW5jxBLd00lIDU7M4ArW",
-        "name": "DSC02734.JPG",
-        "folderPath": "",
-        "md5": "001673f16132fbf0738b8801e8916c57",
-        "mimeType": "image/jpeg",
-        "sizeBytes": 6240867,
-        "modifiedTime": "2025-11-07T23:08:50.000Z"
-      },
-      "avif": "images/dsc02734-dbacfa0c19.avif",
-      "webp": "images/dsc02734-dbacfa0c19.webp",
-      "width": 1920,
-      "height": 1280,
-      "bytes": {
-        "avif": 148193,
-        "webp": 255590
-      },
-      "createdAt": "2026-09-09T16:59:19.171Z",
-      "syncedAt": "2026-09-10T02:25:46.301Z",
-      "category": "Group",
-      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
-      "customTitle": "DSC02734",
-      "sortOrder": 0
-    },
-    {
       "id": "775715df41",
       "slug": "dsc02479",
       "source": {
@@ -814,35 +31,12 @@
       "syncedAt": "2026-09-10T02:26:00.413Z",
       "category": "Nocturne",
       "detectedTheme": "Đêm / Ánh sáng tự nhiên",
-      "customTitle": "DSC02479",
-      "sortOrder": 0
-    },
-    {
-      "id": "5103fe03a9",
-      "slug": "dsc02558",
-      "source": {
-        "fileId": "1T2U9w5YcqeMr_hBSWfnzazBnOVFc4Trl",
-        "name": "DSC02558.JPG",
-        "folderPath": "",
-        "md5": "ce2c6327681a0e05797613c8ba976cc6",
-        "mimeType": "image/jpeg",
-        "sizeBytes": 5949471,
-        "modifiedTime": "2025-11-07T22:50:58.000Z"
-      },
-      "avif": "images/dsc02558-5103fe03a9.avif",
-      "webp": "images/dsc02558-5103fe03a9.webp",
-      "width": 1920,
-      "height": 1280,
-      "bytes": {
-        "avif": 97312,
-        "webp": 149072
-      },
-      "createdAt": "2026-09-09T16:58:59.687Z",
-      "syncedAt": "2026-09-10T02:25:48.418Z",
-      "category": "Group",
-      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
-      "customTitle": "DSC02558",
-      "sortOrder": 0
+      "customTitle": "Highlights #01",
+      "sortOrder": 0,
+      "albumName": "Highlights",
+      "albumSlug": "highlights",
+      "itemIndex": 1,
+      "indexTag": "#01"
     },
     {
       "id": "af1a96534d",
@@ -868,8 +62,663 @@
       "syncedAt": "2026-09-10T02:25:49.246Z",
       "category": "Group",
       "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
-      "customTitle": "DSC02492",
-      "sortOrder": 0
+      "customTitle": "Highlights #02",
+      "sortOrder": 0,
+      "albumName": "Highlights",
+      "albumSlug": "highlights",
+      "itemIndex": 2,
+      "indexTag": "#02"
+    },
+    {
+      "id": "5103fe03a9",
+      "slug": "dsc02558",
+      "source": {
+        "fileId": "1T2U9w5YcqeMr_hBSWfnzazBnOVFc4Trl",
+        "name": "DSC02558.JPG",
+        "folderPath": "",
+        "md5": "ce2c6327681a0e05797613c8ba976cc6",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 5949471,
+        "modifiedTime": "2025-11-07T22:50:58.000Z"
+      },
+      "avif": "images/dsc02558-5103fe03a9.avif",
+      "webp": "images/dsc02558-5103fe03a9.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 97312,
+        "webp": 149072
+      },
+      "createdAt": "2026-09-09T16:58:59.687Z",
+      "syncedAt": "2026-09-10T02:25:48.418Z",
+      "category": "Group",
+      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
+      "customTitle": "Highlights #03",
+      "sortOrder": 0,
+      "albumName": "Highlights",
+      "albumSlug": "highlights",
+      "itemIndex": 3,
+      "indexTag": "#03"
+    },
+    {
+      "id": "dbacfa0c19",
+      "slug": "dsc02734",
+      "source": {
+        "fileId": "1rsSOCV8nh3K5HW5jxBLd00lIDU7M4ArW",
+        "name": "DSC02734.JPG",
+        "folderPath": "",
+        "md5": "001673f16132fbf0738b8801e8916c57",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 6240867,
+        "modifiedTime": "2025-11-07T23:08:50.000Z"
+      },
+      "avif": "images/dsc02734-dbacfa0c19.avif",
+      "webp": "images/dsc02734-dbacfa0c19.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 148193,
+        "webp": 255590
+      },
+      "createdAt": "2026-09-09T16:59:19.171Z",
+      "syncedAt": "2026-09-10T02:25:46.301Z",
+      "category": "Group",
+      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
+      "customTitle": "Highlights #04",
+      "sortOrder": 0,
+      "albumName": "Highlights",
+      "albumSlug": "highlights",
+      "itemIndex": 4,
+      "indexTag": "#04"
+    },
+    {
+      "id": "5867474cd9",
+      "slug": "dsc02751",
+      "source": {
+        "fileId": "1w8ptQpcN8XWG2B_7BcbIkXhTRpk8o2nY",
+        "name": "DSC02751.JPG",
+        "folderPath": "",
+        "md5": "d783ba838905054ed30a7ea58d1b2b14",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 2593335,
+        "modifiedTime": "2025-11-07T23:11:48.000Z"
+      },
+      "avif": "images/dsc02751-5867474cd9.avif",
+      "webp": "images/dsc02751-5867474cd9.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 35328,
+        "webp": 53080
+      },
+      "createdAt": "2026-09-09T16:59:28.773Z",
+      "syncedAt": "2026-09-10T02:25:35.187Z",
+      "category": "Nocturne",
+      "detectedTheme": "Đêm / Ánh sáng tự nhiên",
+      "customTitle": "Highlights #05",
+      "sortOrder": 0,
+      "albumName": "Highlights",
+      "albumSlug": "highlights",
+      "itemIndex": 5,
+      "indexTag": "#05"
+    },
+    {
+      "id": "c9be9d48ec",
+      "slug": "dsc02752",
+      "source": {
+        "fileId": "1dxEr04OIDymG6h4Dzp4xo40w9iHon3ca",
+        "name": "DSC02752.png",
+        "folderPath": "",
+        "md5": "a0d40e8b0811c401d9268154afd01bc5",
+        "mimeType": "image/png",
+        "sizeBytes": 24688599,
+        "modifiedTime": "2026-01-26T14:07:06.000Z"
+      },
+      "avif": "images/dsc02752-c9be9d48ec.avif",
+      "webp": "images/dsc02752-c9be9d48ec.webp",
+      "width": 1920,
+      "height": 1080,
+      "bytes": {
+        "avif": 112839,
+        "webp": 198844
+      },
+      "createdAt": "2026-09-09T17:03:48.879Z",
+      "syncedAt": "2026-09-10T02:23:05.618Z",
+      "category": "Moment",
+      "detectedTheme": "Phong cảnh / Không gian (Landscape)",
+      "customTitle": "Highlights #06",
+      "sortOrder": 0,
+      "albumName": "Highlights",
+      "albumSlug": "highlights",
+      "itemIndex": 6,
+      "indexTag": "#06"
+    },
+    {
+      "id": "31860ed847",
+      "slug": "dsc02765",
+      "source": {
+        "fileId": "18HThiJV5K9V8hfXJOjAxhIPqJF8mbNw_",
+        "name": "DSC02765.JPG",
+        "folderPath": "",
+        "md5": "ab5c5f12909229a1b956c1bd98768e2b",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 16178927,
+        "modifiedTime": "2026-01-24T18:43:42.000Z"
+      },
+      "avif": "images/dsc02765-31860ed847.avif",
+      "webp": "images/dsc02765-31860ed847.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 140146,
+        "webp": 246206
+      },
+      "createdAt": "2026-09-09T17:00:14.813Z",
+      "syncedAt": "2026-09-10T02:24:47.235Z",
+      "category": "Group",
+      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
+      "customTitle": "Highlights #07",
+      "sortOrder": 0,
+      "albumName": "Highlights",
+      "albumSlug": "highlights",
+      "itemIndex": 7,
+      "indexTag": "#07"
+    },
+    {
+      "id": "300a21c9b1",
+      "slug": "dsc02767",
+      "source": {
+        "fileId": "11-gP_NWid9qTJ5OCdaWDMsw6b7Rj4K7c",
+        "name": "DSC02767.JPG",
+        "folderPath": "",
+        "md5": "797a6b6ec529dbc22d094fef73394c65",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 15773525,
+        "modifiedTime": "2026-01-24T18:45:42.000Z"
+      },
+      "avif": "images/dsc02767-300a21c9b1.avif",
+      "webp": "images/dsc02767-300a21c9b1.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 65963,
+        "webp": 105694
+      },
+      "createdAt": "2026-09-09T17:01:50.707Z",
+      "syncedAt": "2026-09-10T02:24:46.210Z",
+      "category": "Group",
+      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
+      "customTitle": "Highlights #08",
+      "sortOrder": 0,
+      "albumName": "Highlights",
+      "albumSlug": "highlights",
+      "itemIndex": 8,
+      "indexTag": "#08"
+    },
+    {
+      "id": "d5316ad835",
+      "slug": "dsc02800",
+      "source": {
+        "fileId": "1K3OpD1AHLH_CX2SxaNLafS5A8qGM2Vfp",
+        "name": "DSC02800.JPG",
+        "folderPath": "",
+        "md5": "4d84a56d3a63deb4d5ca2d46edc2b08a",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 15800990,
+        "modifiedTime": "2026-01-24T18:58:08.000Z"
+      },
+      "avif": "images/dsc02800-d5316ad835.avif",
+      "webp": "images/dsc02800-d5316ad835.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 123245,
+        "webp": 209690
+      },
+      "createdAt": "2026-09-09T17:00:30.652Z",
+      "syncedAt": "2026-09-10T02:24:46.057Z",
+      "category": "Group",
+      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
+      "customTitle": "Highlights #09",
+      "sortOrder": 0,
+      "albumName": "Highlights",
+      "albumSlug": "highlights",
+      "itemIndex": 9,
+      "indexTag": "#09"
+    },
+    {
+      "id": "920c36e76a",
+      "slug": "dsc02841",
+      "source": {
+        "fileId": "1hZKghTp9s9KtqYGiOJSQmbaCsaLNI-mH",
+        "name": "DSC02841.JPG",
+        "folderPath": "",
+        "md5": "e83f29383c48787eba7bd727f8dba76e",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 3037489,
+        "modifiedTime": "2025-11-07T23:23:00.000Z"
+      },
+      "avif": "images/dsc02841-920c36e76a.avif",
+      "webp": "images/dsc02841-920c36e76a.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 41771,
+        "webp": 65342
+      },
+      "createdAt": "2026-09-09T16:59:33.319Z",
+      "syncedAt": "2026-09-10T02:25:31.270Z",
+      "category": "Group",
+      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
+      "customTitle": "Highlights #10",
+      "sortOrder": 0,
+      "albumName": "Highlights",
+      "albumSlug": "highlights",
+      "itemIndex": 10,
+      "indexTag": "#10"
+    },
+    {
+      "id": "93fd02ab26",
+      "slug": "dsc02848",
+      "source": {
+        "fileId": "1itw2N-kZ_fRkPG6hyZvvmsauR4f5fUKu",
+        "name": "DSC02848.JPG",
+        "folderPath": "",
+        "md5": "a6bfd5509a3498461a28516f79f4535e",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 13274328,
+        "modifiedTime": "2026-01-24T19:44:50.000Z"
+      },
+      "avif": "images/dsc02848-93fd02ab26.avif",
+      "webp": "images/dsc02848-93fd02ab26.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 31856,
+        "webp": 54120
+      },
+      "createdAt": "2026-09-09T17:00:38.906Z",
+      "syncedAt": "2026-09-10T02:24:37.741Z",
+      "category": "Group",
+      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
+      "customTitle": "Highlights #11",
+      "sortOrder": 0,
+      "albumName": "Highlights",
+      "albumSlug": "highlights",
+      "itemIndex": 11,
+      "indexTag": "#11"
+    },
+    {
+      "id": "9c9cdf3266",
+      "slug": "dsc02850",
+      "source": {
+        "fileId": "1glrDM3k9VvA9qmAGcrros6Ggqk4OxjiL",
+        "name": "DSC02850.JPG",
+        "folderPath": "",
+        "md5": "049bf351e3feedd003f1b3b51bbfcf0c",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 13003524,
+        "modifiedTime": "2026-01-24T19:45:42.000Z"
+      },
+      "avif": "images/dsc02850-9c9cdf3266.avif",
+      "webp": "images/dsc02850-9c9cdf3266.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 25226,
+        "webp": 42948
+      },
+      "createdAt": "2026-09-09T17:01:41.494Z",
+      "syncedAt": "2026-09-10T02:24:34.743Z",
+      "category": "Group",
+      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
+      "customTitle": "Highlights #12",
+      "sortOrder": 0,
+      "albumName": "Highlights",
+      "albumSlug": "highlights",
+      "itemIndex": 12,
+      "indexTag": "#12"
+    },
+    {
+      "id": "54ad3fc9a4",
+      "slug": "dsc02864",
+      "source": {
+        "fileId": "1fmCggvBzNVrfFAy_B7Q4wGnZlszp3EmD",
+        "name": "DSC02864.JPG",
+        "folderPath": "",
+        "md5": "e685773ff04ef78adb198c1b7b2c2da4",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 16764766,
+        "modifiedTime": "2026-01-24T20:01:42.000Z"
+      },
+      "avif": "images/dsc02864-54ad3fc9a4.avif",
+      "webp": "images/dsc02864-54ad3fc9a4.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 109312,
+        "webp": 174362
+      },
+      "createdAt": "2026-09-09T17:02:35.926Z",
+      "syncedAt": "2026-09-10T02:24:23.468Z",
+      "category": "Group",
+      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
+      "customTitle": "Highlights #13",
+      "sortOrder": 0,
+      "albumName": "Highlights",
+      "albumSlug": "highlights",
+      "itemIndex": 13,
+      "indexTag": "#13"
+    },
+    {
+      "id": "c44c85d51f",
+      "slug": "dsc02871",
+      "source": {
+        "fileId": "18f2SiloDVhXjWbWnV9nSafszYM4kWwVY",
+        "name": "DSC02871.JPG",
+        "folderPath": "",
+        "md5": "8d0b24d040667b74aa431b524a3ccb8f",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 17208139,
+        "modifiedTime": "2026-01-24T20:08:30.000Z"
+      },
+      "avif": "images/dsc02871-c44c85d51f.avif",
+      "webp": "images/dsc02871-c44c85d51f.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 112695,
+        "webp": 177430
+      },
+      "createdAt": "2026-09-09T17:01:56.788Z",
+      "syncedAt": "2026-09-10T02:24:20.390Z",
+      "category": "Group",
+      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
+      "customTitle": "Highlights #14",
+      "sortOrder": 0,
+      "albumName": "Highlights",
+      "albumSlug": "highlights",
+      "itemIndex": 14,
+      "indexTag": "#14"
+    },
+    {
+      "id": "4f407a0215",
+      "slug": "dsc02942",
+      "source": {
+        "fileId": "1buQUIzeDiFYLtE1GLUWMT0govYCMVJNB",
+        "name": "DSC02942.JPG",
+        "folderPath": "",
+        "md5": "63c91fb6780ad9e5ed30b0620f4095e6",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 15466595,
+        "modifiedTime": "2026-01-24T20:42:12.000Z"
+      },
+      "avif": "images/dsc02942-4f407a0215.avif",
+      "webp": "images/dsc02942-4f407a0215.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 89246,
+        "webp": 137702
+      },
+      "createdAt": "2026-09-09T17:02:05.539Z",
+      "syncedAt": "2026-09-10T02:24:18.884Z",
+      "category": "Group",
+      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
+      "customTitle": "Highlights #15",
+      "sortOrder": 0,
+      "albumName": "Highlights",
+      "albumSlug": "highlights",
+      "itemIndex": 15,
+      "indexTag": "#15"
+    },
+    {
+      "id": "97faa7f0de",
+      "slug": "dsc03017",
+      "source": {
+        "fileId": "1JcAdIlwKy7vYjAKGRyty6c7nxpfOGBwK",
+        "name": "DSC03017.JPG",
+        "folderPath": "",
+        "md5": "293855081d38f0ef3c3220c9a283af2e",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 14104882,
+        "modifiedTime": "2026-01-24T21:04:26.000Z"
+      },
+      "avif": "images/dsc03017-97faa7f0de.avif",
+      "webp": "images/dsc03017-97faa7f0de.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 60326,
+        "webp": 84532
+      },
+      "createdAt": "2026-09-09T17:03:26.158Z",
+      "syncedAt": "2026-09-10T02:24:14.888Z",
+      "category": "Nocturne",
+      "detectedTheme": "Đêm / Ánh sáng tự nhiên",
+      "customTitle": "Highlights #16",
+      "sortOrder": 0,
+      "albumName": "Highlights",
+      "albumSlug": "highlights",
+      "itemIndex": 16,
+      "indexTag": "#16"
+    },
+    {
+      "id": "30ddd7372f",
+      "slug": "dsc03022",
+      "source": {
+        "fileId": "1CZ7NJqr4vBWgeojfpfUZqufNXU9_RJkt",
+        "name": "DSC03022.JPG",
+        "folderPath": "",
+        "md5": "54013a9409d2962a96738c33f4ac5f85",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 15404639,
+        "modifiedTime": "2026-01-24T21:05:04.000Z"
+      },
+      "avif": "images/dsc03022-30ddd7372f.avif",
+      "webp": "images/dsc03022-30ddd7372f.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 83277,
+        "webp": 130944
+      },
+      "createdAt": "2026-09-09T17:03:18.360Z",
+      "syncedAt": "2026-09-10T02:24:04.634Z",
+      "category": "Group",
+      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
+      "customTitle": "Highlights #17",
+      "sortOrder": 0,
+      "albumName": "Highlights",
+      "albumSlug": "highlights",
+      "itemIndex": 17,
+      "indexTag": "#17"
+    },
+    {
+      "id": "eb5fa021d5",
+      "slug": "dsc03038",
+      "source": {
+        "fileId": "13xxzgbiBLLaOoZf2ZDvwK1W1-9r00dCb",
+        "name": "DSC03038.JPG",
+        "folderPath": "",
+        "md5": "ca9c600d9fec29a1246f8d7ffc9077a2",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 12995627,
+        "modifiedTime": "2026-01-24T21:08:06.000Z"
+      },
+      "avif": "images/dsc03038-eb5fa021d5.avif",
+      "webp": "images/dsc03038-eb5fa021d5.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 52290,
+        "webp": 76416
+      },
+      "createdAt": "2026-09-09T17:02:55.210Z",
+      "syncedAt": "2026-09-10T02:23:33.659Z",
+      "category": "Nocturne",
+      "detectedTheme": "Đêm / Ánh sáng tự nhiên",
+      "customTitle": "Highlights #18",
+      "sortOrder": 0,
+      "albumName": "Highlights",
+      "albumSlug": "highlights",
+      "itemIndex": 18,
+      "indexTag": "#18"
+    },
+    {
+      "id": "2e5ccae4cd",
+      "slug": "dsc03044",
+      "source": {
+        "fileId": "1NdnS8v2ht0Hy3-ibJFIOJS7gtcYmnTgu",
+        "name": "DSC03044.JPG",
+        "folderPath": "",
+        "md5": "b903f438a7c5abc31d38684e8d3f5abe",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 12178583,
+        "modifiedTime": "2026-01-24T21:08:58.000Z"
+      },
+      "avif": "images/dsc03044-2e5ccae4cd.avif",
+      "webp": "images/dsc03044-2e5ccae4cd.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 38148,
+        "webp": 64870
+      },
+      "createdAt": "2026-09-09T17:02:46.054Z",
+      "syncedAt": "2026-09-10T02:23:32.366Z",
+      "category": "Group",
+      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
+      "customTitle": "Highlights #19",
+      "sortOrder": 0,
+      "albumName": "Highlights",
+      "albumSlug": "highlights",
+      "itemIndex": 19,
+      "indexTag": "#19"
+    },
+    {
+      "id": "f2849c6c0d",
+      "slug": "dsc03049",
+      "source": {
+        "fileId": "1p7m6-g-5KiOO7AzVzT8jtXHnaxuvBR6r",
+        "name": "DSC03049.JPG",
+        "folderPath": "",
+        "md5": "9c228f060bd07ce6f442f07ca6adede5",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 14000469,
+        "modifiedTime": "2026-01-24T21:09:46.000Z"
+      },
+      "avif": "images/dsc03049-f2849c6c0d.avif",
+      "webp": "images/dsc03049-f2849c6c0d.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 82058,
+        "webp": 132206
+      },
+      "createdAt": "2026-09-09T17:03:10.196Z",
+      "syncedAt": "2026-09-10T02:23:22.121Z",
+      "category": "Group",
+      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
+      "customTitle": "Highlights #20",
+      "sortOrder": 0,
+      "albumName": "Highlights",
+      "albumSlug": "highlights",
+      "itemIndex": 20,
+      "indexTag": "#20"
+    },
+    {
+      "id": "2cb427d16b",
+      "slug": "dsc03074",
+      "source": {
+        "fileId": "12RelPOsBRhc5zhlWk3TKvX8hRp_yGJc6",
+        "name": "DSC03074.JPG",
+        "folderPath": "",
+        "md5": "02b953257128b71830b0c8d2197aecb4",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 13713274,
+        "modifiedTime": "2026-01-24T21:20:32.000Z"
+      },
+      "avif": "images/dsc03074-2cb427d16b.avif",
+      "webp": "images/dsc03074-2cb427d16b.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 70662,
+        "webp": 111902
+      },
+      "createdAt": "2026-09-09T17:03:02.821Z",
+      "syncedAt": "2026-09-10T02:23:05.619Z",
+      "category": "Group",
+      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
+      "customTitle": "Highlights #21",
+      "sortOrder": 0,
+      "albumName": "Highlights",
+      "albumSlug": "highlights",
+      "itemIndex": 21,
+      "indexTag": "#21"
+    },
+    {
+      "id": "25aadaa590",
+      "slug": "dsc03226",
+      "source": {
+        "fileId": "1l5YyKDKyqRvYwlCSCReOeJ4W5paJFHRX",
+        "name": "DSC03226.JPG",
+        "folderPath": "",
+        "md5": "0872a197391650f3846e019e21cc375e",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 14090781,
+        "modifiedTime": "2026-01-24T22:14:46.000Z"
+      },
+      "avif": "images/dsc03226-25aadaa590.avif",
+      "webp": "images/dsc03226-25aadaa590.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 83949,
+        "webp": 125856
+      },
+      "createdAt": "2026-09-09T17:03:38.250Z",
+      "syncedAt": "2026-09-10T02:23:05.619Z",
+      "category": "Moment",
+      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
+      "customTitle": "Highlights #22",
+      "sortOrder": 0,
+      "albumName": "Highlights",
+      "albumSlug": "highlights",
+      "itemIndex": 22,
+      "indexTag": "#22"
+    },
+    {
+      "id": "4b688a6998",
+      "slug": "dsc03231",
+      "source": {
+        "fileId": "12MrRWiVDFDfChxfNPoSwUqa-_5bjgFC_",
+        "name": "DSC03231.JPG",
+        "folderPath": "",
+        "md5": "a2dbd0b4808776a84768f12cec01c321",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 14451802,
+        "modifiedTime": "2026-01-24T22:15:20.000Z"
+      },
+      "avif": "images/dsc03231-4b688a6998.avif",
+      "webp": "images/dsc03231-4b688a6998.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 84739,
+        "webp": 127976
+      },
+      "createdAt": "2026-09-09T17:00:08.567Z",
+      "syncedAt": "2026-09-10T02:23:05.619Z",
+      "category": "Group",
+      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
+      "customTitle": "Highlights #23",
+      "sortOrder": 0,
+      "albumName": "Highlights",
+      "albumSlug": "highlights",
+      "itemIndex": 23,
+      "indexTag": "#23"
     },
     {
       "id": "5bdcc83e26",
@@ -895,9 +744,299 @@
       "syncedAt": "2026-09-10T02:25:13.793Z",
       "category": "Group",
       "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
-      "customTitle": "UP",
-      "sortOrder": 0
+      "customTitle": "Highlights #24",
+      "sortOrder": 0,
+      "albumName": "Highlights",
+      "albumSlug": "highlights",
+      "itemIndex": 24,
+      "indexTag": "#24"
+    },
+    {
+      "id": "52499aed2d",
+      "slug": "up-1",
+      "source": {
+        "fileId": "1eQ2HuTBOwGOt0Rf-NASXKGAsS4bz5_aN",
+        "name": "UP(1).JPG",
+        "folderPath": "",
+        "md5": "3d89f191ec8acbec4f50eca96734223f",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 3242828,
+        "modifiedTime": "2025-11-09T20:09:40.000Z"
+      },
+      "avif": "images/up-1-52499aed2d.avif",
+      "webp": "images/up-1-52499aed2d.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 46315,
+        "webp": 79070
+      },
+      "createdAt": "2026-09-09T16:59:43.255Z",
+      "syncedAt": "2026-09-10T02:25:06.942Z",
+      "category": "Group",
+      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
+      "customTitle": "Highlights #25",
+      "sortOrder": 0,
+      "albumName": "Highlights",
+      "albumSlug": "highlights",
+      "itemIndex": 25,
+      "indexTag": "#25"
+    },
+    {
+      "id": "6b4127f620",
+      "slug": "up-2",
+      "source": {
+        "fileId": "11W9a9nsDcX6SbRh2eaKa-AN7NDi7C4t1",
+        "name": "UP(2).JPG",
+        "folderPath": "",
+        "md5": "1ab6b051bae4fbb2f4a19f1d3b4ab117",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 3564721,
+        "modifiedTime": "2025-11-09T20:00:06.000Z"
+      },
+      "avif": "images/up-2-6b4127f620.avif",
+      "webp": "images/up-2-6b4127f620.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 51658,
+        "webp": 91874
+      },
+      "createdAt": "2026-09-09T16:59:50.524Z",
+      "syncedAt": "2026-09-10T02:25:13.229Z",
+      "category": "Nocturne",
+      "detectedTheme": "Đêm / Ánh sáng tự nhiên",
+      "customTitle": "Highlights #26",
+      "sortOrder": 0,
+      "albumName": "Highlights",
+      "albumSlug": "highlights",
+      "itemIndex": 26,
+      "indexTag": "#26"
+    },
+    {
+      "id": "8f5ee9c095",
+      "slug": "up-3",
+      "source": {
+        "fileId": "1IFGXbuxTmpt_373hu5xhpatzQD0EhX4S",
+        "name": "UP(3).JPG",
+        "folderPath": "",
+        "md5": "8a3528327fcd334f9de94c301b465772",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 7347854,
+        "modifiedTime": "2025-11-09T19:55:14.000Z"
+      },
+      "avif": "images/up-3-8f5ee9c095.avif",
+      "webp": "images/up-3-8f5ee9c095.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 59737,
+        "webp": 90844
+      },
+      "createdAt": "2026-09-09T16:59:57.831Z",
+      "syncedAt": "2026-09-10T02:25:21.108Z",
+      "category": "Group",
+      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
+      "customTitle": "Highlights #27",
+      "sortOrder": 0,
+      "albumName": "Highlights",
+      "albumSlug": "highlights",
+      "itemIndex": 27,
+      "indexTag": "#27"
+    },
+    {
+      "id": "47a52f6c87",
+      "slug": "up-4",
+      "source": {
+        "fileId": "1pL9-RJmQVVt-8LYZ5k90SPOaZGQzxi1Y",
+        "name": "UP(4).JPG",
+        "folderPath": "",
+        "md5": "c2e2dba17dd3d78cda829d298c76cbe5",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 2650698,
+        "modifiedTime": "2025-11-09T20:19:02.000Z"
+      },
+      "avif": "images/up-4-47a52f6c87.avif",
+      "webp": "images/up-4-47a52f6c87.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 43855,
+        "webp": 63710
+      },
+      "createdAt": "2026-09-09T17:00:23.127Z",
+      "syncedAt": "2026-09-10T02:24:59.479Z",
+      "category": "Nocturne",
+      "detectedTheme": "Đêm / Ánh sáng tự nhiên",
+      "customTitle": "Highlights #28",
+      "sortOrder": 0,
+      "albumName": "Highlights",
+      "albumSlug": "highlights",
+      "itemIndex": 28,
+      "indexTag": "#28"
+    },
+    {
+      "id": "c87f205660",
+      "slug": "up-5",
+      "source": {
+        "fileId": "1d0Mnbs1v-8MrJuO-OioSzRSzz9SeKCDb",
+        "name": "UP(5).JPG",
+        "folderPath": "",
+        "md5": "fbaa58369f5bc1c6576733d4888dd309",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 17490398,
+        "modifiedTime": "2025-11-09T19:54:12.000Z"
+      },
+      "avif": "images/up-5-c87f205660.avif",
+      "webp": "images/up-5-c87f205660.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 99995,
+        "webp": 157252
+      },
+      "createdAt": "2026-09-09T17:00:48.755Z",
+      "syncedAt": "2026-09-10T02:25:30.763Z",
+      "category": "Group",
+      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
+      "customTitle": "Highlights #29",
+      "sortOrder": 0,
+      "albumName": "Highlights",
+      "albumSlug": "highlights",
+      "itemIndex": 29,
+      "indexTag": "#29"
+    },
+    {
+      "id": "af15794faa",
+      "slug": "up-6",
+      "source": {
+        "fileId": "1efxAt1m4nQpvwOZuO-u4_Yy8UxGBAFH-",
+        "name": "UP(6).JPG",
+        "folderPath": "",
+        "md5": "4687cc5a80c223110ea586c7d644a132",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 3129945,
+        "modifiedTime": "2025-11-09T20:08:38.000Z"
+      },
+      "avif": "images/up-6-af15794faa.avif",
+      "webp": "images/up-6-af15794faa.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 59607,
+        "webp": 87450
+      },
+      "createdAt": "2026-09-09T17:00:55.929Z",
+      "syncedAt": "2026-09-10T02:25:07.619Z",
+      "category": "Group",
+      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
+      "customTitle": "Highlights #30",
+      "sortOrder": 0,
+      "albumName": "Highlights",
+      "albumSlug": "highlights",
+      "itemIndex": 30,
+      "indexTag": "#30"
+    },
+    {
+      "id": "a5bac36014",
+      "slug": "up-7",
+      "source": {
+        "fileId": "1i6rBbO-vBHZgv4EAbZXumTK1DUZnvxTW",
+        "name": "UP(7).JPG",
+        "folderPath": "",
+        "md5": "e2934e8d7d3b43c4c25115431e45dc1b",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 3386903,
+        "modifiedTime": "2025-11-09T20:09:56.000Z"
+      },
+      "avif": "images/up-7-a5bac36014.avif",
+      "webp": "images/up-7-a5bac36014.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 46806,
+        "webp": 70118
+      },
+      "createdAt": "2026-09-09T17:01:33.156Z",
+      "syncedAt": "2026-09-10T02:25:01.563Z",
+      "category": "Nocturne",
+      "detectedTheme": "Đêm / Ánh sáng tự nhiên",
+      "customTitle": "Highlights #31",
+      "sortOrder": 0,
+      "albumName": "Highlights",
+      "albumSlug": "highlights",
+      "itemIndex": 31,
+      "indexTag": "#31"
+    },
+    {
+      "id": "68de981ebf",
+      "slug": "up-8",
+      "source": {
+        "fileId": "1v3Ar98V_3IhjSkAjSmW5X5eHZ38DzCK2",
+        "name": "UP(8).JPG",
+        "folderPath": "",
+        "md5": "a1d8b6eab0a547391455014690a9d9f6",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 6165379,
+        "modifiedTime": "2025-11-09T19:58:10.000Z"
+      },
+      "avif": "images/up-8-68de981ebf.avif",
+      "webp": "images/up-8-68de981ebf.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 138290,
+        "webp": 261622
+      },
+      "createdAt": "2026-09-09T17:01:25.590Z",
+      "syncedAt": "2026-09-10T02:25:13.613Z",
+      "category": "Group",
+      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
+      "customTitle": "Highlights #32",
+      "sortOrder": 0,
+      "albumName": "Highlights",
+      "albumSlug": "highlights",
+      "itemIndex": 32,
+      "indexTag": "#32"
+    },
+    {
+      "id": "a80a70d4ef",
+      "slug": "up-9",
+      "source": {
+        "fileId": "1dE1WzZXOlU-Ek5bOhj_DN1aXC8vX5jMN",
+        "name": "UP(9).JPG",
+        "folderPath": "",
+        "md5": "5b503e04a92fa6e2c49138d66029a974",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 6552328,
+        "modifiedTime": "2025-11-09T19:57:16.000Z"
+      },
+      "avif": "images/up-9-a80a70d4ef.avif",
+      "webp": "images/up-9-a80a70d4ef.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 49682,
+        "webp": 73874
+      },
+      "createdAt": "2026-09-09T17:02:24.562Z",
+      "syncedAt": "2026-09-10T02:25:20.869Z",
+      "category": "Group",
+      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
+      "customTitle": "Highlights #33",
+      "sortOrder": 0,
+      "albumName": "Highlights",
+      "albumSlug": "highlights",
+      "itemIndex": 33,
+      "indexTag": "#33"
     }
   ],
-  "updatedAt": "2026-09-10T02:46:23.930Z"
+  "updatedAt": "2026-09-10T02:46:23.930Z",
+  "albums": [
+    {
+      "slug": "highlights",
+      "name": "Highlights",
+      "count": 33
+    }
+  ]
 }

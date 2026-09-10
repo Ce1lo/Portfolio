@@ -1,31 +1,24 @@
 "use client";
 
 import { useState, useCallback, useEffect, useMemo } from "react";
-import { getAllImages, formatBytes, type PortfolioImage } from "@/lib/manifest";
+import { getAllImages, getAlbums, formatBytes, type PortfolioImage } from "@/lib/manifest";
 import { SmartImage } from "@/components/SmartImage";
-import { X, CaretLeft, CaretRight, SlidersHorizontal } from "@phosphor-icons/react";
+import { X, CaretLeft, CaretRight, SlidersHorizontal, FolderSimple } from "@phosphor-icons/react";
 import { Z } from "@/lib/z";
 import { cx } from "@/lib/cx";
 import Link from "next/link";
 
-const CATEGORIES = [
-  { id: "All", label: "Tất cả (All)" },
-  { id: "Portrait", label: "Chân dung (Portrait)" },
-  { id: "Group", label: "Nhóm / Đời thường" },
-  { id: "Landscape", label: "Phong cảnh / Không gian" },
-  { id: "Moment", label: "Khoảnh khắc" },
-  { id: "Nocturne", label: "Đêm & Tương phản" },
-] as const;
-
 export function ArchiveGallery() {
   const images = getAllImages();
-  const [selectedCategory, setSelectedCategory] = useState<string>("All");
+  const albums = getAlbums();
+
+  const [selectedAlbum, setSelectedAlbum] = useState<string>("all");
   const [activeIdx, setActiveIdx] = useState<number | null>(null);
 
   const filteredImages = useMemo(() => {
-    if (selectedCategory === "All") return images;
-    return images.filter((img) => img.category === selectedCategory);
-  }, [images, selectedCategory]);
+    if (selectedAlbum === "all") return images;
+    return images.filter((img) => (img.albumSlug || "highlights") === selectedAlbum);
+  }, [images, selectedAlbum]);
 
   const close = useCallback(() => setActiveIdx(null), []);
   const next = useCallback(() => {
@@ -57,7 +50,7 @@ export function ArchiveGallery() {
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10">
           <div>
             <span className="font-mono text-xs uppercase tracking-widest text-accent">
-              Visual Archive & Classification
+              Permanent Archive
             </span>
             <h2 className="mt-3 text-3xl sm:text-5xl font-medium tracking-tight text-fg">
               The Complete Gallery
@@ -71,7 +64,6 @@ export function ArchiveGallery() {
             <Link
               href="/studio"
               className="press inline-flex items-center gap-1.5 rounded-full border border-hairline bg-surface px-4 py-1.5 text-xs font-mono text-fg hover:border-accent shadow-tinted"
-              title="Mở Studio kéo thả thứ tự và đổi tên"
             >
               <SlidersHorizontal size={14} className="text-accent" />
               <span>Studio Sắp xếp</span>
@@ -79,40 +71,58 @@ export function ArchiveGallery() {
           </div>
         </div>
 
-        {/* Group / Category Filters */}
+        {/* Album Folder Filter Pills */}
         <div className="flex flex-wrap items-center gap-2 mb-12">
-          {CATEGORIES.map((cat) => {
-            const active = selectedCategory === cat.id;
+          <button
+            type="button"
+            onClick={() => {
+              setSelectedAlbum("all");
+              setActiveIdx(null);
+            }}
+            className={cx(
+              "press rounded-full px-4 py-1.5 font-mono text-xs transition-colors",
+              selectedAlbum === "all"
+                ? "bg-accent text-accent-fg font-medium"
+                : "border border-hairline bg-surface text-fg-muted hover:border-hairline-strong hover:text-fg"
+            )}
+          >
+            Tất cả ({images.length})
+          </button>
+
+          {albums.map((album) => {
+            const active = selectedAlbum === album.slug;
             return (
               <button
-                key={cat.id}
+                key={album.slug}
                 type="button"
                 onClick={() => {
-                  setSelectedCategory(cat.id);
+                  setSelectedAlbum(album.slug);
                   setActiveIdx(null);
                 }}
                 className={cx(
-                  "press rounded-full px-4 py-1.5 font-mono text-xs transition-colors",
+                  "press inline-flex items-center gap-1.5 rounded-full px-4 py-1.5 font-mono text-xs transition-colors",
                   active
                     ? "bg-accent text-accent-fg font-medium"
                     : "border border-hairline bg-surface text-fg-muted hover:border-hairline-strong hover:text-fg"
                 )}
               >
-                {cat.label}
+                <FolderSimple size={14} />
+                <span>{album.name}</span>
+                <span className="opacity-75">({album.count})</span>
               </button>
             );
           })}
         </div>
 
-        {/* Masonry Grid with auto titles & groups */}
+        {/* Masonry Grid with auto STT & Album label */}
         {filteredImages.length === 0 ? (
           <div className="text-center py-20 font-mono text-sm text-fg-subtle">
-            Chưa có ảnh nào trong nhóm này. Bạn có thể gán nhãn trong Studio.
+            Chưa có ảnh nào trong album này.
           </div>
         ) : (
           <div className="columns-1 gap-6 sm:columns-2 lg:columns-3 xl:columns-4">
             {filteredImages.map((img, idx) => {
-              const displayTitle = img.customTitle || img.source.name;
+              const displayTitle = img.customTitle || `${img.albumName || "Highlights"} #${String(idx + 1).padStart(2, "0")}`;
 
               return (
                 <figure
@@ -132,12 +142,11 @@ export function ArchiveGallery() {
                     />
                   </div>
                   <figcaption className="mt-2.5 flex items-center justify-between px-1.5 pb-1 font-mono text-[11px] text-fg-subtle">
-                    <span className="truncate max-w-[170px] font-medium text-fg">
-                      {displayTitle}
-                    </span>
-                    <span className="text-accent text-[10px]">
-                      {img.category ? `#${img.category}` : formatBytes(img.bytes.webp)}
-                    </span>
+                    <div className="flex items-center gap-1.5 truncate max-w-[190px]">
+                      <span className="font-bold text-accent">{img.indexTag || `#${String(idx + 1).padStart(2, "0")}`}</span>
+                      <span className="truncate font-medium text-fg">{displayTitle}</span>
+                    </div>
+                    <span>{formatBytes(img.bytes.webp)}</span>
                   </figcaption>
                 </figure>
               );
@@ -195,11 +204,12 @@ export function ArchiveGallery() {
             </div>
             <div className="mt-3 flex items-center justify-between px-3 pb-1 font-mono text-xs text-fg-subtle">
               <div className="flex items-center gap-3">
+                <span className="font-bold text-accent">{filteredImages[activeIdx].indexTag || `#${activeIdx + 1}`}</span>
                 <span className="font-medium text-fg">
                   {filteredImages[activeIdx].customTitle || filteredImages[activeIdx].source.name}
                 </span>
-                <span>{filteredImages[activeIdx].width} x {filteredImages[activeIdx].height}</span>
-                <span>Chủ đề: {filteredImages[activeIdx].detectedTheme || filteredImages[activeIdx].category}</span>
+                <span>Thư mục: {filteredImages[activeIdx].albumName || "Highlights"}</span>
+                <span>{filteredImages[activeIdx].width}x{filteredImages[activeIdx].height}</span>
               </div>
               <span>
                 {activeIdx + 1} / {filteredImages.length}
