@@ -129,7 +129,7 @@ function SortableImageItem({
 }
 
 export default function StudioPage() {
-  const [pin, setPin] = useState("2026");
+  const [pin, setPin] = useState("");
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [items, setItems] = useState<PortfolioImage[]>(manifest.images);
   const [saving, setSaving] = useState(false);
@@ -193,14 +193,18 @@ export default function StudioPage() {
           </div>
           <h1 className="text-xl font-medium text-fg">Studio Curation Access</h1>
           <p className="mt-2 text-xs text-fg-muted">
-            Nhập mã PIN để chỉnh sửa thông tin, đặt tên và sắp xếp vị trí ảnh. (Mặc định: 2026)
+            Nhập mã PIN cá nhân để mở Studio curation.
           </p>
 
           <form
             onSubmit={(e) => {
               e.preventDefault();
-              if (pin.trim() === "2026") setIsAuthenticated(true);
-              else setErrorMsg("Mã PIN không đúng (Mặc định: 2026)");
+              if (pin.trim() === "1511") {
+                setIsAuthenticated(true);
+                setErrorMsg("");
+              } else {
+                setErrorMsg("Mã PIN không đúng");
+              }
             }}
             className="mt-6 flex flex-col gap-3"
           >
@@ -209,6 +213,7 @@ export default function StudioPage() {
               value={pin}
               onChange={(e) => setPin(e.target.value)}
               placeholder="Nhập mã PIN"
+              autoFocus
               className="w-full rounded-[8px] border border-hairline bg-bg-sunken px-4 py-2.5 text-center font-mono text-sm tracking-widest text-fg focus:border-accent focus:outline-none"
             />
             {errorMsg && <p className="text-xs text-rose-500">{errorMsg}</p>}
