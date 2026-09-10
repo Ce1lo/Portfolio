@@ -6,16 +6,16 @@
  * manifest that already contains images.
  */
 
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile, stat } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import path from "node:path";
 import process from "node:process";
 
 const repoRoot = process.cwd();
-const manifestPath = path.resolve(
-  repoRoot,
-  process.env.MANIFEST_PATH ?? "./src/generated/image-manifest.json",
-);
+const configuredManifest = process.env.MANIFEST_PATH?.trim();
+const manifestPath = (configuredManifest && configuredManifest.length > 0)
+  ? path.resolve(repoRoot, configuredManifest)
+  : path.resolve(repoRoot, "src/generated/image-manifest.json");
 
 const EMPTY = {
   generatedAt: null,
@@ -26,9 +26,13 @@ const EMPTY = {
 };
 
 async function main() {
-  await mkdir(path.dirname(manifestPath), { recursive: true });
-
   if (existsSync(manifestPath)) {
+    const s = await stat(manifestPath);
+    if (s.isDirectory()) {
+      console.warn(`[manifest] ${manifestPath} is a directory, not a file. Skipping write.`);
+      return;
+    }
+
     try {
       const parsed = JSON.parse(await readFile(manifestPath, "utf8"));
       if (parsed && Array.isArray(parsed.images)) {
@@ -40,8 +44,8 @@ async function main() {
       console.warn(`[manifest] file exists but is not valid JSON (${err.message}), resetting to empty`);
     }
   } else {
-    console.log("[manifest] not found, writing empty manifest");
-    console.log("[manifest] run `npm run sync` to pull images from Google Drive");
+    console.log("[manifest] not found, creating directory and writing default manifest");
+    await mkdir(path.dirname(manifestPath), { recursive: true });
   }
 
   await writeFile(manifestPath, `${JSON.stringify(EMPTY, null, 2)}\n`, "utf8");
