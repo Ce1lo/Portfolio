@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-10T08:59:30.563Z",
-  "count": 37,
+  "generatedAt": "2026-09-10T09:41:22.440Z",
+  "count": 46,
   "albums": [
     {
       "slug": "c-sv25",
@@ -13,9 +13,14 @@
       "count": 16
     },
     {
+      "slug": "hoithaoptit",
+      "name": "HoiThaoPTIT",
+      "count": 6
+    },
+    {
       "slug": "random",
       "name": "Random",
-      "count": 2
+      "count": 5
     }
   ],
   "source": {
@@ -614,440 +619,6 @@
       "sortOrder": 0
     },
     {
-      "id": "98bf45347a",
-      "slug": "delotto26",
-      "source": {
-        "fileId": "1l5YyKDKyqRvYwlCSCReOeJ4W5paJFHRX",
-        "name": "Delotto26",
-        "folderPath": "Delotto26",
-        "md5": "0872a197391650f3846e019e21cc375e",
-        "mimeType": "image/jpeg",
-        "sizeBytes": 14090781,
-        "modifiedTime": "2026-09-10T05:04:59.156Z"
-      },
-      "avif": "images/delotto26-98bf45347a.avif",
-      "webp": "images/delotto26-98bf45347a.webp",
-      "width": 1920,
-      "height": 1280,
-      "bytes": {
-        "avif": 83949,
-        "webp": 125856
-      },
-      "createdAt": "2026-09-09T17:03:38.250Z",
-      "syncedAt": "2026-09-10T05:21:04.376Z",
-      "albumName": "Delotto26",
-      "albumSlug": "delotto26",
-      "itemIndex": 1,
-      "indexTag": "#01",
-      "customTitle": "Delotto26 #01",
-      "category": "Group",
-      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
-      "sortOrder": 0
-    },
-    {
-      "id": "f322004e3e",
-      "slug": "delotto26",
-      "source": {
-        "fileId": "12RelPOsBRhc5zhlWk3TKvX8hRp_yGJc6",
-        "name": "Delotto26",
-        "folderPath": "Delotto26",
-        "md5": "02b953257128b71830b0c8d2197aecb4",
-        "mimeType": "image/jpeg",
-        "sizeBytes": 13713274,
-        "modifiedTime": "2026-09-10T05:04:55.741Z"
-      },
-      "avif": "images/delotto26-f322004e3e.avif",
-      "webp": "images/delotto26-f322004e3e.webp",
-      "width": 1920,
-      "height": 1280,
-      "bytes": {
-        "avif": 70662,
-        "webp": 111902
-      },
-      "createdAt": "2026-09-09T17:03:02.821Z",
-      "syncedAt": "2026-09-10T05:21:04.376Z",
-      "albumName": "Delotto26",
-      "albumSlug": "delotto26",
-      "itemIndex": 2,
-      "indexTag": "#02",
-      "customTitle": "Delotto26 #02",
-      "category": "Group",
-      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
-      "sortOrder": 0
-    },
-    {
-      "id": "84ae3ff0f6",
-      "slug": "delotto26",
-      "source": {
-        "fileId": "1p7m6-g-5KiOO7AzVzT8jtXHnaxuvBR6r",
-        "name": "Delotto26",
-        "folderPath": "Delotto26",
-        "md5": "9c228f060bd07ce6f442f07ca6adede5",
-        "mimeType": "image/jpeg",
-        "sizeBytes": 14000469,
-        "modifiedTime": "2026-09-10T05:04:52.819Z"
-      },
-      "avif": "images/delotto26-84ae3ff0f6.avif",
-      "webp": "images/delotto26-84ae3ff0f6.webp",
-      "width": 1920,
-      "height": 1280,
-      "bytes": {
-        "avif": 82058,
-        "webp": 132206
-      },
-      "createdAt": "2026-09-09T17:03:10.196Z",
-      "syncedAt": "2026-09-10T05:21:04.376Z",
-      "albumName": "Delotto26",
-      "albumSlug": "delotto26",
-      "itemIndex": 3,
-      "indexTag": "#03",
-      "customTitle": "Delotto26 #03",
-      "category": "Group",
-      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
-      "sortOrder": 0
-    },
-    {
-      "id": "a9a40c51f2",
-      "slug": "delotto26",
-      "source": {
-        "fileId": "1NdnS8v2ht0Hy3-ibJFIOJS7gtcYmnTgu",
-        "name": "Delotto26",
-        "folderPath": "Delotto26",
-        "md5": "b903f438a7c5abc31d38684e8d3f5abe",
-        "mimeType": "image/jpeg",
-        "sizeBytes": 12178583,
-        "modifiedTime": "2026-09-10T05:04:50.165Z"
-      },
-      "avif": "images/delotto26-a9a40c51f2.avif",
-      "webp": "images/delotto26-a9a40c51f2.webp",
-      "width": 1920,
-      "height": 1280,
-      "bytes": {
-        "avif": 38148,
-        "webp": 64870
-      },
-      "createdAt": "2026-09-09T17:02:46.054Z",
-      "syncedAt": "2026-09-10T05:21:04.377Z",
-      "albumName": "Delotto26",
-      "albumSlug": "delotto26",
-      "itemIndex": 4,
-      "indexTag": "#04",
-      "customTitle": "Delotto26 #04",
-      "category": "Group",
-      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
-      "sortOrder": 0
-    },
-    {
-      "id": "9bdeb62c45",
-      "slug": "delotto26",
-      "source": {
-        "fileId": "13xxzgbiBLLaOoZf2ZDvwK1W1-9r00dCb",
-        "name": "Delotto26",
-        "folderPath": "Delotto26",
-        "md5": "ca9c600d9fec29a1246f8d7ffc9077a2",
-        "mimeType": "image/jpeg",
-        "sizeBytes": 12995627,
-        "modifiedTime": "2026-09-10T05:04:47.182Z"
-      },
-      "avif": "images/delotto26-9bdeb62c45.avif",
-      "webp": "images/delotto26-9bdeb62c45.webp",
-      "width": 1920,
-      "height": 1280,
-      "bytes": {
-        "avif": 52290,
-        "webp": 76416
-      },
-      "createdAt": "2026-09-09T17:02:55.210Z",
-      "syncedAt": "2026-09-10T05:21:33.527Z",
-      "albumName": "Delotto26",
-      "albumSlug": "delotto26",
-      "itemIndex": 5,
-      "indexTag": "#05",
-      "customTitle": "Delotto26 #05",
-      "category": "Nocturne",
-      "detectedTheme": "Đêm / Ánh sáng tự nhiên",
-      "sortOrder": 0
-    },
-    {
-      "id": "9c082d627e",
-      "slug": "delotto26",
-      "source": {
-        "fileId": "1JcAdIlwKy7vYjAKGRyty6c7nxpfOGBwK",
-        "name": "Delotto26",
-        "folderPath": "Delotto26",
-        "md5": "293855081d38f0ef3c3220c9a283af2e",
-        "mimeType": "image/jpeg",
-        "sizeBytes": 14104882,
-        "modifiedTime": "2026-09-10T05:04:43.860Z"
-      },
-      "avif": "images/delotto26-9c082d627e.avif",
-      "webp": "images/delotto26-9c082d627e.webp",
-      "width": 1920,
-      "height": 1280,
-      "bytes": {
-        "avif": 60326,
-        "webp": 84532
-      },
-      "createdAt": "2026-09-09T17:03:26.158Z",
-      "syncedAt": "2026-09-10T05:21:33.753Z",
-      "albumName": "Delotto26",
-      "albumSlug": "delotto26",
-      "itemIndex": 6,
-      "indexTag": "#06",
-      "customTitle": "Delotto26 #06",
-      "category": "Nocturne",
-      "detectedTheme": "Đêm / Ánh sáng tự nhiên",
-      "sortOrder": 0
-    },
-    {
-      "id": "1686b2555b",
-      "slug": "delotto26",
-      "source": {
-        "fileId": "1buQUIzeDiFYLtE1GLUWMT0govYCMVJNB",
-        "name": "Delotto26",
-        "folderPath": "Delotto26",
-        "md5": "63c91fb6780ad9e5ed30b0620f4095e6",
-        "mimeType": "image/jpeg",
-        "sizeBytes": 15466595,
-        "modifiedTime": "2026-09-10T05:04:39.855Z"
-      },
-      "avif": "images/delotto26-1686b2555b.avif",
-      "webp": "images/delotto26-1686b2555b.webp",
-      "width": 1920,
-      "height": 1280,
-      "bytes": {
-        "avif": 89246,
-        "webp": 137702
-      },
-      "createdAt": "2026-09-09T17:02:05.539Z",
-      "syncedAt": "2026-09-10T05:21:36.066Z",
-      "albumName": "Delotto26",
-      "albumSlug": "delotto26",
-      "itemIndex": 7,
-      "indexTag": "#07",
-      "customTitle": "Delotto26 #07",
-      "category": "Group",
-      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
-      "sortOrder": 0
-    },
-    {
-      "id": "c9244b3615",
-      "slug": "delotto26",
-      "source": {
-        "fileId": "18f2SiloDVhXjWbWnV9nSafszYM4kWwVY",
-        "name": "Delotto26",
-        "folderPath": "Delotto26",
-        "md5": "8d0b24d040667b74aa431b524a3ccb8f",
-        "mimeType": "image/jpeg",
-        "sizeBytes": 17208139,
-        "modifiedTime": "2026-09-10T05:04:36.103Z"
-      },
-      "avif": "images/delotto26-c9244b3615.avif",
-      "webp": "images/delotto26-c9244b3615.webp",
-      "width": 1920,
-      "height": 1280,
-      "bytes": {
-        "avif": 112695,
-        "webp": 177430
-      },
-      "createdAt": "2026-09-09T17:01:56.788Z",
-      "syncedAt": "2026-09-10T05:21:48.494Z",
-      "albumName": "Delotto26",
-      "albumSlug": "delotto26",
-      "itemIndex": 8,
-      "indexTag": "#08",
-      "customTitle": "Delotto26 #08",
-      "category": "Group",
-      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
-      "sortOrder": 0
-    },
-    {
-      "id": "3762878696",
-      "slug": "delotto26",
-      "source": {
-        "fileId": "1fmCggvBzNVrfFAy_B7Q4wGnZlszp3EmD",
-        "name": "Delotto26",
-        "folderPath": "Delotto26",
-        "md5": "e685773ff04ef78adb198c1b7b2c2da4",
-        "mimeType": "image/jpeg",
-        "sizeBytes": 16764766,
-        "modifiedTime": "2026-09-10T05:04:32.470Z"
-      },
-      "avif": "images/delotto26-3762878696.avif",
-      "webp": "images/delotto26-3762878696.webp",
-      "width": 1920,
-      "height": 1280,
-      "bytes": {
-        "avif": 109312,
-        "webp": 174362
-      },
-      "createdAt": "2026-09-09T17:02:35.926Z",
-      "syncedAt": "2026-09-10T05:22:12.489Z",
-      "albumName": "Delotto26",
-      "albumSlug": "delotto26",
-      "itemIndex": 9,
-      "indexTag": "#09",
-      "customTitle": "Delotto26 #09",
-      "category": "Group",
-      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
-      "sortOrder": 0
-    },
-    {
-      "id": "8e6dee88ad",
-      "slug": "delotto26",
-      "source": {
-        "fileId": "1glrDM3k9VvA9qmAGcrros6Ggqk4OxjiL",
-        "name": "Delotto26",
-        "folderPath": "Delotto26",
-        "md5": "049bf351e3feedd003f1b3b51bbfcf0c",
-        "mimeType": "image/jpeg",
-        "sizeBytes": 13003524,
-        "modifiedTime": "2026-09-10T05:04:25.896Z"
-      },
-      "avif": "images/delotto26-8e6dee88ad.avif",
-      "webp": "images/delotto26-8e6dee88ad.webp",
-      "width": 1920,
-      "height": 1280,
-      "bytes": {
-        "avif": 25226,
-        "webp": 42948
-      },
-      "createdAt": "2026-09-09T17:01:41.494Z",
-      "syncedAt": "2026-09-10T05:22:20.911Z",
-      "albumName": "Delotto26",
-      "albumSlug": "delotto26",
-      "itemIndex": 10,
-      "indexTag": "#10",
-      "customTitle": "Delotto26 #10",
-      "category": "Group",
-      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
-      "sortOrder": 0
-    },
-    {
-      "id": "40de0edcfc",
-      "slug": "delotto26",
-      "source": {
-        "fileId": "1itw2N-kZ_fRkPG6hyZvvmsauR4f5fUKu",
-        "name": "Delotto26",
-        "folderPath": "Delotto26",
-        "md5": "a6bfd5509a3498461a28516f79f4535e",
-        "mimeType": "image/jpeg",
-        "sizeBytes": 13274328,
-        "modifiedTime": "2026-09-10T05:04:23.206Z"
-      },
-      "avif": "images/delotto26-40de0edcfc.avif",
-      "webp": "images/delotto26-40de0edcfc.webp",
-      "width": 1920,
-      "height": 1280,
-      "bytes": {
-        "avif": 31856,
-        "webp": 54120
-      },
-      "createdAt": "2026-09-09T17:00:38.906Z",
-      "syncedAt": "2026-09-10T05:22:33.390Z",
-      "albumName": "Delotto26",
-      "albumSlug": "delotto26",
-      "itemIndex": 11,
-      "indexTag": "#11",
-      "customTitle": "Delotto26 #11",
-      "category": "Group",
-      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
-      "sortOrder": 0
-    },
-    {
-      "id": "c4d96a0e7b",
-      "slug": "delotto26",
-      "source": {
-        "fileId": "18HThiJV5K9V8hfXJOjAxhIPqJF8mbNw_",
-        "name": "Delotto26",
-        "folderPath": "Delotto26",
-        "md5": "ab5c5f12909229a1b956c1bd98768e2b",
-        "mimeType": "image/jpeg",
-        "sizeBytes": 16178927,
-        "modifiedTime": "2026-09-10T05:04:19.966Z"
-      },
-      "avif": "images/delotto26-c4d96a0e7b.avif",
-      "webp": "images/delotto26-c4d96a0e7b.webp",
-      "width": 1920,
-      "height": 1280,
-      "bytes": {
-        "avif": 140146,
-        "webp": 246206
-      },
-      "createdAt": "2026-09-09T17:00:14.813Z",
-      "syncedAt": "2026-09-10T05:22:34.882Z",
-      "albumName": "Delotto26",
-      "albumSlug": "delotto26",
-      "itemIndex": 12,
-      "indexTag": "#12",
-      "customTitle": "Delotto26 #12",
-      "category": "Group",
-      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
-      "sortOrder": 0
-    },
-    {
-      "id": "1a90f00b27",
-      "slug": "delotto26",
-      "source": {
-        "fileId": "12MrRWiVDFDfChxfNPoSwUqa-_5bjgFC_",
-        "name": "Delotto26",
-        "folderPath": "Delotto26",
-        "md5": "a2dbd0b4808776a84768f12cec01c321",
-        "mimeType": "image/jpeg",
-        "sizeBytes": 14451802,
-        "modifiedTime": "2026-09-10T05:04:17.530Z"
-      },
-      "avif": "images/delotto26-1a90f00b27.avif",
-      "webp": "images/delotto26-1a90f00b27.webp",
-      "width": 1920,
-      "height": 1280,
-      "bytes": {
-        "avif": 84739,
-        "webp": 127976
-      },
-      "createdAt": "2026-09-09T17:00:08.567Z",
-      "syncedAt": "2026-09-10T05:22:52.771Z",
-      "albumName": "Delotto26",
-      "albumSlug": "delotto26",
-      "itemIndex": 13,
-      "indexTag": "#13",
-      "customTitle": "Delotto26 #13",
-      "category": "Group",
-      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
-      "sortOrder": 0
-    },
-    {
-      "id": "566a852369",
-      "slug": "delotto26",
-      "source": {
-        "fileId": "1dxEr04OIDymG6h4Dzp4xo40w9iHon3ca",
-        "name": "Delotto26",
-        "folderPath": "Delotto26",
-        "md5": "a0d40e8b0811c401d9268154afd01bc5",
-        "mimeType": "image/png",
-        "sizeBytes": 24688599,
-        "modifiedTime": "2026-09-10T05:04:14.380Z"
-      },
-      "avif": "images/delotto26-566a852369.avif",
-      "webp": "images/delotto26-566a852369.webp",
-      "width": 1920,
-      "height": 1080,
-      "bytes": {
-        "avif": 112839,
-        "webp": 198844
-      },
-      "createdAt": "2026-09-09T17:03:48.879Z",
-      "syncedAt": "2026-09-10T05:22:54.277Z",
-      "albumName": "Delotto26",
-      "albumSlug": "delotto26",
-      "itemIndex": 14,
-      "indexTag": "#14",
-      "customTitle": "Delotto26 #14",
-      "category": "Landscape",
-      "detectedTheme": "Phong cảnh / Không gian (Landscape)",
-      "sortOrder": 0
-    },
-    {
       "id": "c3ca0e9bbd",
       "slug": "delotto26",
       "source": {
@@ -1071,9 +642,9 @@
       "syncedAt": "2026-09-10T08:59:09.015Z",
       "albumName": "Delotto26",
       "albumSlug": "delotto26",
-      "itemIndex": 15,
-      "indexTag": "#15",
-      "customTitle": "Delotto26 #15",
+      "itemIndex": 1,
+      "indexTag": "#01",
+      "customTitle": "Delotto26 #01",
       "category": "Group",
       "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
       "sortOrder": 0
@@ -1102,11 +673,724 @@
       "syncedAt": "2026-09-10T08:59:09.015Z",
       "albumName": "Delotto26",
       "albumSlug": "delotto26",
+      "itemIndex": 2,
+      "indexTag": "#02",
+      "customTitle": "Delotto26 #02",
+      "category": "Group",
+      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
+      "sortOrder": 0
+    },
+    {
+      "id": "98bf45347a",
+      "slug": "delotto26",
+      "source": {
+        "fileId": "1l5YyKDKyqRvYwlCSCReOeJ4W5paJFHRX",
+        "name": "Delotto26",
+        "folderPath": "Delotto26",
+        "md5": "0872a197391650f3846e019e21cc375e",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 14090781,
+        "modifiedTime": "2026-09-10T05:04:59.156Z"
+      },
+      "avif": "images/delotto26-98bf45347a.avif",
+      "webp": "images/delotto26-98bf45347a.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 83949,
+        "webp": 125856
+      },
+      "createdAt": "2026-09-09T17:03:38.250Z",
+      "syncedAt": "2026-09-10T05:21:04.376Z",
+      "albumName": "Delotto26",
+      "albumSlug": "delotto26",
+      "itemIndex": 3,
+      "indexTag": "#03",
+      "customTitle": "Delotto26 #03",
+      "category": "Group",
+      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
+      "sortOrder": 0
+    },
+    {
+      "id": "f322004e3e",
+      "slug": "delotto26",
+      "source": {
+        "fileId": "12RelPOsBRhc5zhlWk3TKvX8hRp_yGJc6",
+        "name": "Delotto26",
+        "folderPath": "Delotto26",
+        "md5": "02b953257128b71830b0c8d2197aecb4",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 13713274,
+        "modifiedTime": "2026-09-10T05:04:55.741Z"
+      },
+      "avif": "images/delotto26-f322004e3e.avif",
+      "webp": "images/delotto26-f322004e3e.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 70662,
+        "webp": 111902
+      },
+      "createdAt": "2026-09-09T17:03:02.821Z",
+      "syncedAt": "2026-09-10T05:21:04.376Z",
+      "albumName": "Delotto26",
+      "albumSlug": "delotto26",
+      "itemIndex": 4,
+      "indexTag": "#04",
+      "customTitle": "Delotto26 #04",
+      "category": "Group",
+      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
+      "sortOrder": 0
+    },
+    {
+      "id": "84ae3ff0f6",
+      "slug": "delotto26",
+      "source": {
+        "fileId": "1p7m6-g-5KiOO7AzVzT8jtXHnaxuvBR6r",
+        "name": "Delotto26",
+        "folderPath": "Delotto26",
+        "md5": "9c228f060bd07ce6f442f07ca6adede5",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 14000469,
+        "modifiedTime": "2026-09-10T05:04:52.819Z"
+      },
+      "avif": "images/delotto26-84ae3ff0f6.avif",
+      "webp": "images/delotto26-84ae3ff0f6.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 82058,
+        "webp": 132206
+      },
+      "createdAt": "2026-09-09T17:03:10.196Z",
+      "syncedAt": "2026-09-10T05:21:04.376Z",
+      "albumName": "Delotto26",
+      "albumSlug": "delotto26",
+      "itemIndex": 5,
+      "indexTag": "#05",
+      "customTitle": "Delotto26 #05",
+      "category": "Group",
+      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
+      "sortOrder": 0
+    },
+    {
+      "id": "a9a40c51f2",
+      "slug": "delotto26",
+      "source": {
+        "fileId": "1NdnS8v2ht0Hy3-ibJFIOJS7gtcYmnTgu",
+        "name": "Delotto26",
+        "folderPath": "Delotto26",
+        "md5": "b903f438a7c5abc31d38684e8d3f5abe",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 12178583,
+        "modifiedTime": "2026-09-10T05:04:50.165Z"
+      },
+      "avif": "images/delotto26-a9a40c51f2.avif",
+      "webp": "images/delotto26-a9a40c51f2.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 38148,
+        "webp": 64870
+      },
+      "createdAt": "2026-09-09T17:02:46.054Z",
+      "syncedAt": "2026-09-10T05:21:04.377Z",
+      "albumName": "Delotto26",
+      "albumSlug": "delotto26",
+      "itemIndex": 6,
+      "indexTag": "#06",
+      "customTitle": "Delotto26 #06",
+      "category": "Group",
+      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
+      "sortOrder": 0
+    },
+    {
+      "id": "9bdeb62c45",
+      "slug": "delotto26",
+      "source": {
+        "fileId": "13xxzgbiBLLaOoZf2ZDvwK1W1-9r00dCb",
+        "name": "Delotto26",
+        "folderPath": "Delotto26",
+        "md5": "ca9c600d9fec29a1246f8d7ffc9077a2",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 12995627,
+        "modifiedTime": "2026-09-10T05:04:47.182Z"
+      },
+      "avif": "images/delotto26-9bdeb62c45.avif",
+      "webp": "images/delotto26-9bdeb62c45.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 52290,
+        "webp": 76416
+      },
+      "createdAt": "2026-09-09T17:02:55.210Z",
+      "syncedAt": "2026-09-10T05:21:33.527Z",
+      "albumName": "Delotto26",
+      "albumSlug": "delotto26",
+      "itemIndex": 7,
+      "indexTag": "#07",
+      "customTitle": "Delotto26 #07",
+      "category": "Nocturne",
+      "detectedTheme": "Đêm / Ánh sáng tự nhiên",
+      "sortOrder": 0
+    },
+    {
+      "id": "9c082d627e",
+      "slug": "delotto26",
+      "source": {
+        "fileId": "1JcAdIlwKy7vYjAKGRyty6c7nxpfOGBwK",
+        "name": "Delotto26",
+        "folderPath": "Delotto26",
+        "md5": "293855081d38f0ef3c3220c9a283af2e",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 14104882,
+        "modifiedTime": "2026-09-10T05:04:43.860Z"
+      },
+      "avif": "images/delotto26-9c082d627e.avif",
+      "webp": "images/delotto26-9c082d627e.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 60326,
+        "webp": 84532
+      },
+      "createdAt": "2026-09-09T17:03:26.158Z",
+      "syncedAt": "2026-09-10T05:21:33.753Z",
+      "albumName": "Delotto26",
+      "albumSlug": "delotto26",
+      "itemIndex": 8,
+      "indexTag": "#08",
+      "customTitle": "Delotto26 #08",
+      "category": "Nocturne",
+      "detectedTheme": "Đêm / Ánh sáng tự nhiên",
+      "sortOrder": 0
+    },
+    {
+      "id": "1686b2555b",
+      "slug": "delotto26",
+      "source": {
+        "fileId": "1buQUIzeDiFYLtE1GLUWMT0govYCMVJNB",
+        "name": "Delotto26",
+        "folderPath": "Delotto26",
+        "md5": "63c91fb6780ad9e5ed30b0620f4095e6",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 15466595,
+        "modifiedTime": "2026-09-10T05:04:39.855Z"
+      },
+      "avif": "images/delotto26-1686b2555b.avif",
+      "webp": "images/delotto26-1686b2555b.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 89246,
+        "webp": 137702
+      },
+      "createdAt": "2026-09-09T17:02:05.539Z",
+      "syncedAt": "2026-09-10T05:21:36.066Z",
+      "albumName": "Delotto26",
+      "albumSlug": "delotto26",
+      "itemIndex": 9,
+      "indexTag": "#09",
+      "customTitle": "Delotto26 #09",
+      "category": "Group",
+      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
+      "sortOrder": 0
+    },
+    {
+      "id": "c9244b3615",
+      "slug": "delotto26",
+      "source": {
+        "fileId": "18f2SiloDVhXjWbWnV9nSafszYM4kWwVY",
+        "name": "Delotto26",
+        "folderPath": "Delotto26",
+        "md5": "8d0b24d040667b74aa431b524a3ccb8f",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 17208139,
+        "modifiedTime": "2026-09-10T05:04:36.103Z"
+      },
+      "avif": "images/delotto26-c9244b3615.avif",
+      "webp": "images/delotto26-c9244b3615.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 112695,
+        "webp": 177430
+      },
+      "createdAt": "2026-09-09T17:01:56.788Z",
+      "syncedAt": "2026-09-10T05:21:48.494Z",
+      "albumName": "Delotto26",
+      "albumSlug": "delotto26",
+      "itemIndex": 10,
+      "indexTag": "#10",
+      "customTitle": "Delotto26 #10",
+      "category": "Group",
+      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
+      "sortOrder": 0
+    },
+    {
+      "id": "3762878696",
+      "slug": "delotto26",
+      "source": {
+        "fileId": "1fmCggvBzNVrfFAy_B7Q4wGnZlszp3EmD",
+        "name": "Delotto26",
+        "folderPath": "Delotto26",
+        "md5": "e685773ff04ef78adb198c1b7b2c2da4",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 16764766,
+        "modifiedTime": "2026-09-10T05:04:32.470Z"
+      },
+      "avif": "images/delotto26-3762878696.avif",
+      "webp": "images/delotto26-3762878696.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 109312,
+        "webp": 174362
+      },
+      "createdAt": "2026-09-09T17:02:35.926Z",
+      "syncedAt": "2026-09-10T05:22:12.489Z",
+      "albumName": "Delotto26",
+      "albumSlug": "delotto26",
+      "itemIndex": 11,
+      "indexTag": "#11",
+      "customTitle": "Delotto26 #11",
+      "category": "Group",
+      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
+      "sortOrder": 0
+    },
+    {
+      "id": "8e6dee88ad",
+      "slug": "delotto26",
+      "source": {
+        "fileId": "1glrDM3k9VvA9qmAGcrros6Ggqk4OxjiL",
+        "name": "Delotto26",
+        "folderPath": "Delotto26",
+        "md5": "049bf351e3feedd003f1b3b51bbfcf0c",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 13003524,
+        "modifiedTime": "2026-09-10T05:04:25.896Z"
+      },
+      "avif": "images/delotto26-8e6dee88ad.avif",
+      "webp": "images/delotto26-8e6dee88ad.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 25226,
+        "webp": 42948
+      },
+      "createdAt": "2026-09-09T17:01:41.494Z",
+      "syncedAt": "2026-09-10T05:22:20.911Z",
+      "albumName": "Delotto26",
+      "albumSlug": "delotto26",
+      "itemIndex": 12,
+      "indexTag": "#12",
+      "customTitle": "Delotto26 #12",
+      "category": "Group",
+      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
+      "sortOrder": 0
+    },
+    {
+      "id": "40de0edcfc",
+      "slug": "delotto26",
+      "source": {
+        "fileId": "1itw2N-kZ_fRkPG6hyZvvmsauR4f5fUKu",
+        "name": "Delotto26",
+        "folderPath": "Delotto26",
+        "md5": "a6bfd5509a3498461a28516f79f4535e",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 13274328,
+        "modifiedTime": "2026-09-10T05:04:23.206Z"
+      },
+      "avif": "images/delotto26-40de0edcfc.avif",
+      "webp": "images/delotto26-40de0edcfc.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 31856,
+        "webp": 54120
+      },
+      "createdAt": "2026-09-09T17:00:38.906Z",
+      "syncedAt": "2026-09-10T05:22:33.390Z",
+      "albumName": "Delotto26",
+      "albumSlug": "delotto26",
+      "itemIndex": 13,
+      "indexTag": "#13",
+      "customTitle": "Delotto26 #13",
+      "category": "Group",
+      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
+      "sortOrder": 0
+    },
+    {
+      "id": "c4d96a0e7b",
+      "slug": "delotto26",
+      "source": {
+        "fileId": "18HThiJV5K9V8hfXJOjAxhIPqJF8mbNw_",
+        "name": "Delotto26",
+        "folderPath": "Delotto26",
+        "md5": "ab5c5f12909229a1b956c1bd98768e2b",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 16178927,
+        "modifiedTime": "2026-09-10T05:04:19.966Z"
+      },
+      "avif": "images/delotto26-c4d96a0e7b.avif",
+      "webp": "images/delotto26-c4d96a0e7b.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 140146,
+        "webp": 246206
+      },
+      "createdAt": "2026-09-09T17:00:14.813Z",
+      "syncedAt": "2026-09-10T05:22:34.882Z",
+      "albumName": "Delotto26",
+      "albumSlug": "delotto26",
+      "itemIndex": 14,
+      "indexTag": "#14",
+      "customTitle": "Delotto26 #14",
+      "category": "Group",
+      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
+      "sortOrder": 0
+    },
+    {
+      "id": "1a90f00b27",
+      "slug": "delotto26",
+      "source": {
+        "fileId": "12MrRWiVDFDfChxfNPoSwUqa-_5bjgFC_",
+        "name": "Delotto26",
+        "folderPath": "Delotto26",
+        "md5": "a2dbd0b4808776a84768f12cec01c321",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 14451802,
+        "modifiedTime": "2026-09-10T05:04:17.530Z"
+      },
+      "avif": "images/delotto26-1a90f00b27.avif",
+      "webp": "images/delotto26-1a90f00b27.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 84739,
+        "webp": 127976
+      },
+      "createdAt": "2026-09-09T17:00:08.567Z",
+      "syncedAt": "2026-09-10T05:22:52.771Z",
+      "albumName": "Delotto26",
+      "albumSlug": "delotto26",
+      "itemIndex": 15,
+      "indexTag": "#15",
+      "customTitle": "Delotto26 #15",
+      "category": "Group",
+      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
+      "sortOrder": 0
+    },
+    {
+      "id": "566a852369",
+      "slug": "delotto26",
+      "source": {
+        "fileId": "1dxEr04OIDymG6h4Dzp4xo40w9iHon3ca",
+        "name": "Delotto26",
+        "folderPath": "Delotto26",
+        "md5": "a0d40e8b0811c401d9268154afd01bc5",
+        "mimeType": "image/png",
+        "sizeBytes": 24688599,
+        "modifiedTime": "2026-09-10T05:04:14.380Z"
+      },
+      "avif": "images/delotto26-566a852369.avif",
+      "webp": "images/delotto26-566a852369.webp",
+      "width": 1920,
+      "height": 1080,
+      "bytes": {
+        "avif": 112839,
+        "webp": 198844
+      },
+      "createdAt": "2026-09-09T17:03:48.879Z",
+      "syncedAt": "2026-09-10T05:22:54.277Z",
+      "albumName": "Delotto26",
+      "albumSlug": "delotto26",
       "itemIndex": 16,
       "indexTag": "#16",
       "customTitle": "Delotto26 #16",
+      "category": "Landscape",
+      "detectedTheme": "Phong cảnh / Không gian (Landscape)",
+      "sortOrder": 0
+    },
+    {
+      "id": "6bc5675ca6",
+      "slug": "dsc08781",
+      "source": {
+        "fileId": "1gA2d_JGPICZh7SbG4YttlnxvWyXxR1IX",
+        "name": "DSC08781.JPG",
+        "folderPath": "HoiThaoPTIT",
+        "md5": "7872606c03f0c9e78c622f88c680d75a",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 15336094,
+        "modifiedTime": "2025-09-16T10:37:38.000Z"
+      },
+      "avif": "images/dsc08781-6bc5675ca6.avif",
+      "webp": "images/dsc08781-6bc5675ca6.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 137734,
+        "webp": 245778
+      },
+      "createdAt": "2026-09-10T09:03:12.627Z",
+      "syncedAt": "2026-09-10T09:40:48.465Z",
+      "albumName": "HoiThaoPTIT",
+      "albumSlug": "hoithaoptit",
+      "itemIndex": 1,
+      "indexTag": "#01",
+      "customTitle": "HoiThaoPTIT #01",
       "category": "Group",
       "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
+      "sortOrder": 0
+    },
+    {
+      "id": "996f9e471e",
+      "slug": "dsc08836",
+      "source": {
+        "fileId": "1i3ZOmoZBcyevHKqUghakNstpEewAFC4a",
+        "name": "DSC08836.JPG",
+        "folderPath": "HoiThaoPTIT",
+        "md5": "980c4def3d00ed7555df84f04ee43f3e",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 14728098,
+        "modifiedTime": "2025-09-16T10:58:18.000Z"
+      },
+      "avif": "images/dsc08836-996f9e471e.avif",
+      "webp": "images/dsc08836-996f9e471e.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 110381,
+        "webp": 181688
+      },
+      "createdAt": "2026-09-10T09:02:01.142Z",
+      "syncedAt": "2026-09-10T09:40:47.800Z",
+      "albumName": "HoiThaoPTIT",
+      "albumSlug": "hoithaoptit",
+      "itemIndex": 2,
+      "indexTag": "#02",
+      "customTitle": "HoiThaoPTIT #02",
+      "category": "Group",
+      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
+      "sortOrder": 0
+    },
+    {
+      "id": "8875ab3a86",
+      "slug": "dsc09045",
+      "source": {
+        "fileId": "10e_MgSPZ_GUnGjfsZxW7CNSZKrtGzsM1",
+        "name": "DSC09045.JPG",
+        "folderPath": "HoiThaoPTIT",
+        "md5": "1c315b707b25a2dae416d1a5a986da7a",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 11923554,
+        "modifiedTime": "2025-09-16T11:38:08.000Z"
+      },
+      "avif": "images/dsc09045-8875ab3a86.avif",
+      "webp": "images/dsc09045-8875ab3a86.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 70747,
+        "webp": 120950
+      },
+      "createdAt": "2026-09-10T09:04:39.611Z",
+      "syncedAt": "2026-09-10T09:40:36.079Z",
+      "albumName": "HoiThaoPTIT",
+      "albumSlug": "hoithaoptit",
+      "itemIndex": 3,
+      "indexTag": "#03",
+      "customTitle": "HoiThaoPTIT #03",
+      "category": "Group",
+      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
+      "sortOrder": 0
+    },
+    {
+      "id": "75cef7f79a",
+      "slug": "dsc09064",
+      "source": {
+        "fileId": "1wtKw-qe8uju5v_tsGYhhhLXaafsR-_Ue",
+        "name": "DSC09064.JPG",
+        "folderPath": "HoiThaoPTIT",
+        "md5": "889975ceca8918960ef0b7ad85f60eb3",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 16685965,
+        "modifiedTime": "2025-09-16T11:41:32.000Z"
+      },
+      "avif": "images/dsc09064-75cef7f79a.avif",
+      "webp": "images/dsc09064-75cef7f79a.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 150448,
+        "webp": 266884
+      },
+      "createdAt": "2026-09-10T09:03:53.728Z",
+      "syncedAt": "2026-09-10T09:40:36.079Z",
+      "albumName": "HoiThaoPTIT",
+      "albumSlug": "hoithaoptit",
+      "itemIndex": 4,
+      "indexTag": "#04",
+      "customTitle": "HoiThaoPTIT #04",
+      "category": "Group",
+      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
+      "sortOrder": 0
+    },
+    {
+      "id": "56824c303f",
+      "slug": "dsc09085",
+      "source": {
+        "fileId": "1xLtiJCa3jk_KknXqCu_r3sMqbJSrafuF",
+        "name": "DSC09085.JPG",
+        "folderPath": "HoiThaoPTIT",
+        "md5": "2fa4b243d809cc0ea6a0cc734b8ee8f4",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 11580093,
+        "modifiedTime": "2025-09-16T11:46:12.000Z"
+      },
+      "avif": "images/dsc09085-56824c303f.avif",
+      "webp": "images/dsc09085-56824c303f.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 69691,
+        "webp": 119230
+      },
+      "createdAt": "2026-09-10T09:02:29.078Z",
+      "syncedAt": "2026-09-10T09:40:36.079Z",
+      "albumName": "HoiThaoPTIT",
+      "albumSlug": "hoithaoptit",
+      "itemIndex": 5,
+      "indexTag": "#05",
+      "customTitle": "HoiThaoPTIT #05",
+      "category": "Group",
+      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
+      "sortOrder": 0
+    },
+    {
+      "id": "acef440a40",
+      "slug": "dsc09242",
+      "source": {
+        "fileId": "1aQ5Bmip72igxuNq4TQc3pSubKVYp77aU",
+        "name": "DSC09242.JPG",
+        "folderPath": "HoiThaoPTIT",
+        "md5": "f97f7ce21fb0795af85ad4d70a685cee",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 13154108,
+        "modifiedTime": "2025-09-16T13:47:30.000Z"
+      },
+      "avif": "images/dsc09242-acef440a40.avif",
+      "webp": "images/dsc09242-acef440a40.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 51524,
+        "webp": 89090
+      },
+      "createdAt": "2026-09-10T09:05:13.525Z",
+      "syncedAt": "2026-09-10T09:40:36.079Z",
+      "albumName": "HoiThaoPTIT",
+      "albumSlug": "hoithaoptit",
+      "itemIndex": 6,
+      "indexTag": "#06",
+      "customTitle": "HoiThaoPTIT #06",
+      "category": "Group",
+      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
+      "sortOrder": 0
+    },
+    {
+      "id": "84b8130b1d",
+      "slug": "dsc04558",
+      "source": {
+        "fileId": "15CvX28DYWTwBBaeZ94ezanwIceEv_LSh",
+        "name": "DSC04558.JPG",
+        "folderPath": "Random",
+        "md5": "8a4b7e8ae97e97ff59f888c093ae2223",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 15206424,
+        "modifiedTime": "2026-07-09T12:22:07.000Z"
+      },
+      "avif": "images/dsc04558-84b8130b1d.avif",
+      "webp": "images/dsc04558-84b8130b1d.webp",
+      "width": 1920,
+      "height": 2880,
+      "bytes": {
+        "avif": 185403,
+        "webp": 281388
+      },
+      "createdAt": "2026-09-10T09:06:37.816Z",
+      "syncedAt": "2026-09-10T09:41:04.927Z",
+      "albumName": "Random",
+      "albumSlug": "random",
+      "itemIndex": 1,
+      "indexTag": "#01",
+      "customTitle": "Random #01",
+      "category": "Portrait",
+      "detectedTheme": "Chân dung (Portrait)",
+      "sortOrder": 0
+    },
+    {
+      "id": "021feb1a7a",
+      "slug": "dsc04593",
+      "source": {
+        "fileId": "1kwPL9ZuuqIa3vhlPNZ5l9HorxTKj1nfF",
+        "name": "DSC04593.JPG",
+        "folderPath": "Random",
+        "md5": "1d5f6129a25ac68711231191fd36dc12",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 15078027,
+        "modifiedTime": "2026-07-09T12:41:03.000Z"
+      },
+      "avif": "images/dsc04593-021feb1a7a.avif",
+      "webp": "images/dsc04593-021feb1a7a.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 78700,
+        "webp": 127024
+      },
+      "createdAt": "2026-09-10T09:07:03.531Z",
+      "syncedAt": "2026-09-10T09:40:53.361Z",
+      "albumName": "Random",
+      "albumSlug": "random",
+      "itemIndex": 2,
+      "indexTag": "#02",
+      "customTitle": "Random #02",
+      "category": "Group",
+      "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
+      "sortOrder": 0
+    },
+    {
+      "id": "d6b894b6ce",
+      "slug": "dsc04606",
+      "source": {
+        "fileId": "1gvbMHxl1vAGifk_B8sm7BgBN10Gyycy5",
+        "name": "DSC04606.JPG",
+        "folderPath": "Random",
+        "md5": "b713a44472b9d4e6d518fe603de35d2a",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 15968054,
+        "modifiedTime": "2026-07-09T12:44:54.000Z"
+      },
+      "avif": "images/dsc04606-d6b894b6ce.avif",
+      "webp": "images/dsc04606-d6b894b6ce.webp",
+      "width": 1920,
+      "height": 2880,
+      "bytes": {
+        "avif": 248995,
+        "webp": 385998
+      },
+      "createdAt": "2026-09-10T09:05:54.904Z",
+      "syncedAt": "2026-09-10T09:40:49.540Z",
+      "albumName": "Random",
+      "albumSlug": "random",
+      "itemIndex": 3,
+      "indexTag": "#03",
+      "customTitle": "Random #03",
+      "category": "Portrait",
+      "detectedTheme": "Chân dung (Portrait)",
       "sortOrder": 0
     },
     {
@@ -1133,9 +1417,9 @@
       "syncedAt": "2026-09-10T08:59:09.015Z",
       "albumName": "Random",
       "albumSlug": "random",
-      "itemIndex": 1,
-      "indexTag": "#01",
-      "customTitle": "Random #01",
+      "itemIndex": 4,
+      "indexTag": "#04",
+      "customTitle": "Random #04",
       "category": "Landscape",
       "detectedTheme": "Phong cảnh / Không gian (Landscape)",
       "sortOrder": 0
@@ -1164,9 +1448,9 @@
       "syncedAt": "2026-09-10T08:59:09.015Z",
       "albumName": "Random",
       "albumSlug": "random",
-      "itemIndex": 2,
-      "indexTag": "#02",
-      "customTitle": "Random #02",
+      "itemIndex": 5,
+      "indexTag": "#05",
+      "customTitle": "Random #05",
       "category": "Group",
       "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
       "sortOrder": 0
