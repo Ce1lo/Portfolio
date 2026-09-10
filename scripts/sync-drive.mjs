@@ -203,7 +203,10 @@ async function walkFolder(drive, folderId, prefix, acc, depth = 0) {
       includeItemsFromAllDrives: true,
     });
     for (const file of data.files ?? []) {
-      if (file.mimeType === "application/vnd.google.folder") {
+      if (
+        file.mimeType === "application/vnd.google-apps.folder" ||
+        file.mimeType === "application/vnd.google.folder"
+      ) {
         const nextPrefix = prefix ? `${prefix}/${file.name}` : file.name;
         await walkFolder(drive, file.id, nextPrefix, acc, depth + 1);
       } else {

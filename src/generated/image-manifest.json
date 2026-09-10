@@ -1,11 +1,947 @@
 {
-  "generatedAt": "2026-09-10T05:12:24.045Z",
-  "count": 0,
-  "albums": [],
+  "generatedAt": "2026-09-10T05:24:20.954Z",
+  "count": 33,
+  "albums": [
+    {
+      "slug": "c-sv25",
+      "name": "C!SV25",
+      "count": 19
+    },
+    {
+      "slug": "delotto26",
+      "name": "Delotto26",
+      "count": 14
+    }
+  ],
   "source": {
     "provider": "google-drive",
     "folderId": "1CbIeNOb6x0W58IGjtnHd7NzWAlR03cRc"
   },
   "publicBase": "/images",
-  "images": []
+  "images": [
+    {
+      "id": "d8a0fbb15c",
+      "slug": "c-sv25",
+      "source": {
+        "fileId": "1IFGXbuxTmpt_373hu5xhpatzQD0EhX4S",
+        "name": "C!SV25",
+        "folderPath": "C!SV25",
+        "md5": "8a3528327fcd334f9de94c301b465772",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 7347854,
+        "modifiedTime": "2026-09-10T04:53:15.809Z"
+      },
+      "avif": "images/c-sv25-d8a0fbb15c.avif",
+      "webp": "images/c-sv25-d8a0fbb15c.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 59737,
+        "webp": 90844
+      },
+      "createdAt": "2026-09-09T16:59:57.831Z",
+      "syncedAt": "2026-09-10T05:22:58.382Z",
+      "albumName": "C!SV25",
+      "albumSlug": "c-sv25",
+      "itemIndex": 1,
+      "indexTag": "#01",
+      "customTitle": "C!SV25 #01"
+    },
+    {
+      "id": "b915df006e",
+      "slug": "c-sv25",
+      "source": {
+        "fileId": "1pL9-RJmQVVt-8LYZ5k90SPOaZGQzxi1Y",
+        "name": "C!SV25",
+        "folderPath": "C!SV25",
+        "md5": "c2e2dba17dd3d78cda829d298c76cbe5",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 2650698,
+        "modifiedTime": "2026-09-10T04:53:09.827Z"
+      },
+      "avif": "images/c-sv25-b915df006e.avif",
+      "webp": "images/c-sv25-b915df006e.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 43855,
+        "webp": 63710
+      },
+      "createdAt": "2026-09-09T17:00:23.127Z",
+      "syncedAt": "2026-09-10T05:23:05.918Z",
+      "albumName": "C!SV25",
+      "albumSlug": "c-sv25",
+      "itemIndex": 2,
+      "indexTag": "#02",
+      "customTitle": "C!SV25 #02"
+    },
+    {
+      "id": "0ab7fe69e8",
+      "slug": "c-sv25",
+      "source": {
+        "fileId": "1efxAt1m4nQpvwOZuO-u4_Yy8UxGBAFH-",
+        "name": "C!SV25",
+        "folderPath": "C!SV25",
+        "md5": "4687cc5a80c223110ea586c7d644a132",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 3129945,
+        "modifiedTime": "2026-09-10T04:53:03.236Z"
+      },
+      "avif": "images/c-sv25-0ab7fe69e8.avif",
+      "webp": "images/c-sv25-0ab7fe69e8.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 59607,
+        "webp": 87450
+      },
+      "createdAt": "2026-09-09T17:00:55.929Z",
+      "syncedAt": "2026-09-10T05:23:13.646Z",
+      "albumName": "C!SV25",
+      "albumSlug": "c-sv25",
+      "itemIndex": 3,
+      "indexTag": "#03",
+      "customTitle": "C!SV25 #03"
+    },
+    {
+      "id": "5a3f5a5129",
+      "slug": "c-sv25",
+      "source": {
+        "fileId": "1i6rBbO-vBHZgv4EAbZXumTK1DUZnvxTW",
+        "name": "C!SV25",
+        "folderPath": "C!SV25",
+        "md5": "e2934e8d7d3b43c4c25115431e45dc1b",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 3386903,
+        "modifiedTime": "2026-09-10T04:52:59.992Z"
+      },
+      "avif": "images/c-sv25-5a3f5a5129.avif",
+      "webp": "images/c-sv25-5a3f5a5129.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 46806,
+        "webp": 70118
+      },
+      "createdAt": "2026-09-09T17:01:33.156Z",
+      "syncedAt": "2026-09-10T05:23:14.053Z",
+      "albumName": "C!SV25",
+      "albumSlug": "c-sv25",
+      "itemIndex": 4,
+      "indexTag": "#04",
+      "customTitle": "C!SV25 #04"
+    },
+    {
+      "id": "5016f12bd3",
+      "slug": "c-sv25",
+      "source": {
+        "fileId": "1d0Mnbs1v-8MrJuO-OioSzRSzz9SeKCDb",
+        "name": "C!SV25",
+        "folderPath": "C!SV25",
+        "md5": "fbaa58369f5bc1c6576733d4888dd309",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 17490398,
+        "modifiedTime": "2026-09-10T04:53:06.622Z"
+      },
+      "avif": "images/c-sv25-5016f12bd3.avif",
+      "webp": "images/c-sv25-5016f12bd3.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 99995,
+        "webp": 157252
+      },
+      "createdAt": "2026-09-09T17:00:48.755Z",
+      "syncedAt": "2026-09-10T05:23:09.060Z",
+      "albumName": "C!SV25",
+      "albumSlug": "c-sv25",
+      "itemIndex": 5,
+      "indexTag": "#05",
+      "customTitle": "C!SV25 #05"
+    },
+    {
+      "id": "633cf16840",
+      "slug": "c-sv25",
+      "source": {
+        "fileId": "1v3Ar98V_3IhjSkAjSmW5X5eHZ38DzCK2",
+        "name": "C!SV25",
+        "folderPath": "C!SV25",
+        "md5": "a1d8b6eab0a547391455014690a9d9f6",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 6165379,
+        "modifiedTime": "2026-09-10T04:52:56.546Z"
+      },
+      "avif": "images/c-sv25-633cf16840.avif",
+      "webp": "images/c-sv25-633cf16840.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 138290,
+        "webp": 261622
+      },
+      "createdAt": "2026-09-09T17:01:25.590Z",
+      "syncedAt": "2026-09-10T05:23:21.781Z",
+      "albumName": "C!SV25",
+      "albumSlug": "c-sv25",
+      "itemIndex": 6,
+      "indexTag": "#06",
+      "customTitle": "C!SV25 #06"
+    },
+    {
+      "id": "f3c1e936aa",
+      "slug": "c-sv25",
+      "source": {
+        "fileId": "1eQ2HuTBOwGOt0Rf-NASXKGAsS4bz5_aN",
+        "name": "C!SV25",
+        "folderPath": "C!SV25",
+        "md5": "3d89f191ec8acbec4f50eca96734223f",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 3242828,
+        "modifiedTime": "2026-09-10T04:52:35.358Z"
+      },
+      "avif": "images/c-sv25-f3c1e936aa.avif",
+      "webp": "images/c-sv25-f3c1e936aa.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 46315,
+        "webp": 79070
+      },
+      "createdAt": "2026-09-09T16:59:43.255Z",
+      "syncedAt": "2026-09-10T05:23:35.190Z",
+      "albumName": "C!SV25",
+      "albumSlug": "c-sv25",
+      "itemIndex": 7,
+      "indexTag": "#07",
+      "customTitle": "C!SV25 #07"
+    },
+    {
+      "id": "488cf962e2",
+      "slug": "c-sv25",
+      "source": {
+        "fileId": "11W9a9nsDcX6SbRh2eaKa-AN7NDi7C4t1",
+        "name": "C!SV25",
+        "folderPath": "C!SV25",
+        "md5": "1ab6b051bae4fbb2f4a19f1d3b4ab117",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 3564721,
+        "modifiedTime": "2026-09-10T04:52:46.314Z"
+      },
+      "avif": "images/c-sv25-488cf962e2.avif",
+      "webp": "images/c-sv25-488cf962e2.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 51658,
+        "webp": 91874
+      },
+      "createdAt": "2026-09-09T16:59:50.524Z",
+      "syncedAt": "2026-09-10T05:23:34.565Z",
+      "albumName": "C!SV25",
+      "albumSlug": "c-sv25",
+      "itemIndex": 8,
+      "indexTag": "#08",
+      "customTitle": "C!SV25 #08"
+    },
+    {
+      "id": "eac0e49e17",
+      "slug": "c-sv25",
+      "source": {
+        "fileId": "1dE1WzZXOlU-Ek5bOhj_DN1aXC8vX5jMN",
+        "name": "C!SV25",
+        "folderPath": "C!SV25",
+        "md5": "5b503e04a92fa6e2c49138d66029a974",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 6552328,
+        "modifiedTime": "2026-09-10T04:52:53.569Z"
+      },
+      "avif": "images/c-sv25-eac0e49e17.avif",
+      "webp": "images/c-sv25-eac0e49e17.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 49682,
+        "webp": 73874
+      },
+      "createdAt": "2026-09-09T17:02:24.562Z",
+      "syncedAt": "2026-09-10T05:23:25.817Z",
+      "albumName": "C!SV25",
+      "albumSlug": "c-sv25",
+      "itemIndex": 9,
+      "indexTag": "#09",
+      "customTitle": "C!SV25 #09"
+    },
+    {
+      "id": "1f38066978",
+      "slug": "c-sv25",
+      "source": {
+        "fileId": "1vsQgxLQugvUzIJYD7oQRHmmZSMbfn_5U",
+        "name": "C!SV25",
+        "folderPath": "C!SV25",
+        "md5": "126c313a9743a6467919c1fd5b2c7630",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 2522761,
+        "modifiedTime": "2026-09-10T04:52:18.778Z"
+      },
+      "avif": "images/c-sv25-1f38066978.avif",
+      "webp": "images/c-sv25-1f38066978.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 47354,
+        "webp": 85144
+      },
+      "createdAt": "2026-09-09T16:58:54.041Z",
+      "syncedAt": "2026-09-10T05:23:43.585Z",
+      "albumName": "C!SV25",
+      "albumSlug": "c-sv25",
+      "itemIndex": 10,
+      "indexTag": "#10",
+      "customTitle": "C!SV25 #10"
+    },
+    {
+      "id": "631f45bde2",
+      "slug": "c-sv25",
+      "source": {
+        "fileId": "1T2U9w5YcqeMr_hBSWfnzazBnOVFc4Trl",
+        "name": "C!SV25",
+        "folderPath": "C!SV25",
+        "md5": "ce2c6327681a0e05797613c8ba976cc6",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 5949471,
+        "modifiedTime": "2026-09-10T04:52:09.028Z"
+      },
+      "avif": "images/c-sv25-631f45bde2.avif",
+      "webp": "images/c-sv25-631f45bde2.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 97312,
+        "webp": 149072
+      },
+      "createdAt": "2026-09-09T16:58:59.687Z",
+      "syncedAt": "2026-09-10T05:23:46.551Z",
+      "albumName": "C!SV25",
+      "albumSlug": "c-sv25",
+      "itemIndex": 11,
+      "indexTag": "#11",
+      "customTitle": "C!SV25 #11"
+    },
+    {
+      "id": "91292c9261",
+      "slug": "c-sv25",
+      "source": {
+        "fileId": "12Rb13Y8W73JKmDJxkHagORCxS1I3QkkV",
+        "name": "C!SV25",
+        "folderPath": "C!SV25",
+        "md5": "f9811996382f641cf133a71a20710f86",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 3354376,
+        "modifiedTime": "2026-09-10T04:52:15.900Z"
+      },
+      "avif": "images/c-sv25-91292c9261.avif",
+      "webp": "images/c-sv25-91292c9261.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 35016,
+        "webp": 56370
+      },
+      "createdAt": "2026-09-09T16:59:07.265Z",
+      "syncedAt": "2026-09-10T05:23:46.252Z",
+      "albumName": "C!SV25",
+      "albumSlug": "c-sv25",
+      "itemIndex": 12,
+      "indexTag": "#12",
+      "customTitle": "C!SV25 #12"
+    },
+    {
+      "id": "186ebb5979",
+      "slug": "c-sv25",
+      "source": {
+        "fileId": "1rsSOCV8nh3K5HW5jxBLd00lIDU7M4ArW",
+        "name": "C!SV25",
+        "folderPath": "C!SV25",
+        "md5": "001673f16132fbf0738b8801e8916c57",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 6240867,
+        "modifiedTime": "2026-09-10T04:52:01.983Z"
+      },
+      "avif": "images/c-sv25-186ebb5979.avif",
+      "webp": "images/c-sv25-186ebb5979.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 148193,
+        "webp": 255590
+      },
+      "createdAt": "2026-09-09T16:59:19.171Z",
+      "syncedAt": "2026-09-10T05:23:49.372Z",
+      "albumName": "C!SV25",
+      "albumSlug": "c-sv25",
+      "itemIndex": 13,
+      "indexTag": "#13",
+      "customTitle": "C!SV25 #13"
+    },
+    {
+      "id": "30a64ce90f",
+      "slug": "c-sv25",
+      "source": {
+        "fileId": "1w8ptQpcN8XWG2B_7BcbIkXhTRpk8o2nY",
+        "name": "C!SV25",
+        "folderPath": "C!SV25",
+        "md5": "d783ba838905054ed30a7ea58d1b2b14",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 2593335,
+        "modifiedTime": "2026-09-10T04:51:35.278Z"
+      },
+      "avif": "images/c-sv25-30a64ce90f.avif",
+      "webp": "images/c-sv25-30a64ce90f.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 35328,
+        "webp": 53080
+      },
+      "createdAt": "2026-09-09T16:59:28.773Z",
+      "syncedAt": "2026-09-10T05:23:57.397Z",
+      "albumName": "C!SV25",
+      "albumSlug": "c-sv25",
+      "itemIndex": 14,
+      "indexTag": "#14",
+      "customTitle": "C!SV25 #14"
+    },
+    {
+      "id": "2c23bf39f2",
+      "slug": "c-sv25",
+      "source": {
+        "fileId": "1hZKghTp9s9KtqYGiOJSQmbaCsaLNI-mH",
+        "name": "C!SV25",
+        "folderPath": "C!SV25",
+        "md5": "e83f29383c48787eba7bd727f8dba76e",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 3037489,
+        "modifiedTime": "2026-09-10T04:51:47.655Z"
+      },
+      "avif": "images/c-sv25-2c23bf39f2.avif",
+      "webp": "images/c-sv25-2c23bf39f2.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 41771,
+        "webp": 65342
+      },
+      "createdAt": "2026-09-09T16:59:33.319Z",
+      "syncedAt": "2026-09-10T05:23:56.094Z",
+      "albumName": "C!SV25",
+      "albumSlug": "c-sv25",
+      "itemIndex": 15,
+      "indexTag": "#15",
+      "customTitle": "C!SV25 #15"
+    },
+    {
+      "id": "60d9e3f071",
+      "slug": "c-sv25",
+      "source": {
+        "fileId": "1bFMhvcFmlMI-E_iJxwqMClsWjl3_H0Bt",
+        "name": "C!SV25",
+        "folderPath": "C!SV25",
+        "md5": "f78806ef41a89629678b10c1e4891d36",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 11448157,
+        "modifiedTime": "2026-09-10T04:52:24.004Z"
+      },
+      "avif": "images/c-sv25-60d9e3f071.avif",
+      "webp": "images/c-sv25-60d9e3f071.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 86857,
+        "webp": 131068
+      },
+      "createdAt": "2026-09-09T16:58:50.155Z",
+      "syncedAt": "2026-09-10T05:23:41.564Z",
+      "albumName": "C!SV25",
+      "albumSlug": "c-sv25",
+      "itemIndex": 16,
+      "indexTag": "#16",
+      "customTitle": "C!SV25 #16"
+    },
+    {
+      "id": "7a31b1acfc",
+      "slug": "c-sv25",
+      "source": {
+        "fileId": "1Uz4kHI5696gVTlRsg_3OJiI9iOOIzAA6",
+        "name": "C!SV25",
+        "folderPath": "C!SV25",
+        "md5": "d0bce36fbc738bcb284b8a86219fca52",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 5808823,
+        "modifiedTime": "2026-09-10T04:50:58.123Z"
+      },
+      "avif": "images/c-sv25-7a31b1acfc.avif",
+      "webp": "images/c-sv25-7a31b1acfc.webp",
+      "width": 1920,
+      "height": 1080,
+      "bytes": {
+        "avif": 83240,
+        "webp": 150216
+      },
+      "createdAt": "2026-09-10T04:48:23.794Z",
+      "syncedAt": "2026-09-10T05:24:05.213Z",
+      "albumName": "C!SV25",
+      "albumSlug": "c-sv25",
+      "itemIndex": 17,
+      "indexTag": "#17",
+      "customTitle": "C!SV25 #17"
+    },
+    {
+      "id": "c841e654ec",
+      "slug": "c-sv25",
+      "source": {
+        "fileId": "1K3OpD1AHLH_CX2SxaNLafS5A8qGM2Vfp",
+        "name": "C!SV25",
+        "folderPath": "C!SV25",
+        "md5": "4d84a56d3a63deb4d5ca2d46edc2b08a",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 15800990,
+        "modifiedTime": "2026-09-10T04:50:32.879Z"
+      },
+      "avif": "images/c-sv25-c841e654ec.avif",
+      "webp": "images/c-sv25-c841e654ec.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 123245,
+        "webp": 209690
+      },
+      "createdAt": "2026-09-09T17:00:30.652Z",
+      "syncedAt": "2026-09-10T05:24:06.985Z",
+      "albumName": "C!SV25",
+      "albumSlug": "c-sv25",
+      "itemIndex": 18,
+      "indexTag": "#18",
+      "customTitle": "C!SV25 #18"
+    },
+    {
+      "id": "01be8d7db3",
+      "slug": "c-sv25",
+      "source": {
+        "fileId": "11-gP_NWid9qTJ5OCdaWDMsw6b7Rj4K7c",
+        "name": "C!SV25",
+        "folderPath": "C!SV25",
+        "md5": "797a6b6ec529dbc22d094fef73394c65",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 15773525,
+        "modifiedTime": "2026-09-10T04:51:24.768Z"
+      },
+      "avif": "images/c-sv25-01be8d7db3.avif",
+      "webp": "images/c-sv25-01be8d7db3.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 65963,
+        "webp": 105694
+      },
+      "createdAt": "2026-09-09T17:01:50.707Z",
+      "syncedAt": "2026-09-10T05:24:05.210Z",
+      "albumName": "C!SV25",
+      "albumSlug": "c-sv25",
+      "itemIndex": 19,
+      "indexTag": "#19",
+      "customTitle": "C!SV25 #19"
+    },
+    {
+      "id": "84ae3ff0f6",
+      "slug": "delotto26",
+      "source": {
+        "fileId": "1p7m6-g-5KiOO7AzVzT8jtXHnaxuvBR6r",
+        "name": "Delotto26",
+        "folderPath": "Delotto26",
+        "md5": "9c228f060bd07ce6f442f07ca6adede5",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 14000469,
+        "modifiedTime": "2026-09-10T05:04:52.819Z"
+      },
+      "avif": "images/delotto26-84ae3ff0f6.avif",
+      "webp": "images/delotto26-84ae3ff0f6.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 82058,
+        "webp": 132206
+      },
+      "createdAt": "2026-09-09T17:03:10.196Z",
+      "syncedAt": "2026-09-10T05:21:04.376Z",
+      "albumName": "Delotto26",
+      "albumSlug": "delotto26",
+      "itemIndex": 1,
+      "indexTag": "#01",
+      "customTitle": "Delotto26 #01"
+    },
+    {
+      "id": "f322004e3e",
+      "slug": "delotto26",
+      "source": {
+        "fileId": "12RelPOsBRhc5zhlWk3TKvX8hRp_yGJc6",
+        "name": "Delotto26",
+        "folderPath": "Delotto26",
+        "md5": "02b953257128b71830b0c8d2197aecb4",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 13713274,
+        "modifiedTime": "2026-09-10T05:04:55.741Z"
+      },
+      "avif": "images/delotto26-f322004e3e.avif",
+      "webp": "images/delotto26-f322004e3e.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 70662,
+        "webp": 111902
+      },
+      "createdAt": "2026-09-09T17:03:02.821Z",
+      "syncedAt": "2026-09-10T05:21:04.376Z",
+      "albumName": "Delotto26",
+      "albumSlug": "delotto26",
+      "itemIndex": 2,
+      "indexTag": "#02",
+      "customTitle": "Delotto26 #02"
+    },
+    {
+      "id": "a9a40c51f2",
+      "slug": "delotto26",
+      "source": {
+        "fileId": "1NdnS8v2ht0Hy3-ibJFIOJS7gtcYmnTgu",
+        "name": "Delotto26",
+        "folderPath": "Delotto26",
+        "md5": "b903f438a7c5abc31d38684e8d3f5abe",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 12178583,
+        "modifiedTime": "2026-09-10T05:04:50.165Z"
+      },
+      "avif": "images/delotto26-a9a40c51f2.avif",
+      "webp": "images/delotto26-a9a40c51f2.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 38148,
+        "webp": 64870
+      },
+      "createdAt": "2026-09-09T17:02:46.054Z",
+      "syncedAt": "2026-09-10T05:21:04.377Z",
+      "albumName": "Delotto26",
+      "albumSlug": "delotto26",
+      "itemIndex": 3,
+      "indexTag": "#03",
+      "customTitle": "Delotto26 #03"
+    },
+    {
+      "id": "98bf45347a",
+      "slug": "delotto26",
+      "source": {
+        "fileId": "1l5YyKDKyqRvYwlCSCReOeJ4W5paJFHRX",
+        "name": "Delotto26",
+        "folderPath": "Delotto26",
+        "md5": "0872a197391650f3846e019e21cc375e",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 14090781,
+        "modifiedTime": "2026-09-10T05:04:59.156Z"
+      },
+      "avif": "images/delotto26-98bf45347a.avif",
+      "webp": "images/delotto26-98bf45347a.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 83949,
+        "webp": 125856
+      },
+      "createdAt": "2026-09-09T17:03:38.250Z",
+      "syncedAt": "2026-09-10T05:21:04.376Z",
+      "albumName": "Delotto26",
+      "albumSlug": "delotto26",
+      "itemIndex": 4,
+      "indexTag": "#04",
+      "customTitle": "Delotto26 #04"
+    },
+    {
+      "id": "9bdeb62c45",
+      "slug": "delotto26",
+      "source": {
+        "fileId": "13xxzgbiBLLaOoZf2ZDvwK1W1-9r00dCb",
+        "name": "Delotto26",
+        "folderPath": "Delotto26",
+        "md5": "ca9c600d9fec29a1246f8d7ffc9077a2",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 12995627,
+        "modifiedTime": "2026-09-10T05:04:47.182Z"
+      },
+      "avif": "images/delotto26-9bdeb62c45.avif",
+      "webp": "images/delotto26-9bdeb62c45.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 52290,
+        "webp": 76416
+      },
+      "createdAt": "2026-09-09T17:02:55.210Z",
+      "syncedAt": "2026-09-10T05:21:33.527Z",
+      "albumName": "Delotto26",
+      "albumSlug": "delotto26",
+      "itemIndex": 5,
+      "indexTag": "#05",
+      "customTitle": "Delotto26 #05"
+    },
+    {
+      "id": "9c082d627e",
+      "slug": "delotto26",
+      "source": {
+        "fileId": "1JcAdIlwKy7vYjAKGRyty6c7nxpfOGBwK",
+        "name": "Delotto26",
+        "folderPath": "Delotto26",
+        "md5": "293855081d38f0ef3c3220c9a283af2e",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 14104882,
+        "modifiedTime": "2026-09-10T05:04:43.860Z"
+      },
+      "avif": "images/delotto26-9c082d627e.avif",
+      "webp": "images/delotto26-9c082d627e.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 60326,
+        "webp": 84532
+      },
+      "createdAt": "2026-09-09T17:03:26.158Z",
+      "syncedAt": "2026-09-10T05:21:33.753Z",
+      "albumName": "Delotto26",
+      "albumSlug": "delotto26",
+      "itemIndex": 6,
+      "indexTag": "#06",
+      "customTitle": "Delotto26 #06"
+    },
+    {
+      "id": "1686b2555b",
+      "slug": "delotto26",
+      "source": {
+        "fileId": "1buQUIzeDiFYLtE1GLUWMT0govYCMVJNB",
+        "name": "Delotto26",
+        "folderPath": "Delotto26",
+        "md5": "63c91fb6780ad9e5ed30b0620f4095e6",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 15466595,
+        "modifiedTime": "2026-09-10T05:04:39.855Z"
+      },
+      "avif": "images/delotto26-1686b2555b.avif",
+      "webp": "images/delotto26-1686b2555b.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 89246,
+        "webp": 137702
+      },
+      "createdAt": "2026-09-09T17:02:05.539Z",
+      "syncedAt": "2026-09-10T05:21:36.066Z",
+      "albumName": "Delotto26",
+      "albumSlug": "delotto26",
+      "itemIndex": 7,
+      "indexTag": "#07",
+      "customTitle": "Delotto26 #07"
+    },
+    {
+      "id": "c9244b3615",
+      "slug": "delotto26",
+      "source": {
+        "fileId": "18f2SiloDVhXjWbWnV9nSafszYM4kWwVY",
+        "name": "Delotto26",
+        "folderPath": "Delotto26",
+        "md5": "8d0b24d040667b74aa431b524a3ccb8f",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 17208139,
+        "modifiedTime": "2026-09-10T05:04:36.103Z"
+      },
+      "avif": "images/delotto26-c9244b3615.avif",
+      "webp": "images/delotto26-c9244b3615.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 112695,
+        "webp": 177430
+      },
+      "createdAt": "2026-09-09T17:01:56.788Z",
+      "syncedAt": "2026-09-10T05:21:48.494Z",
+      "albumName": "Delotto26",
+      "albumSlug": "delotto26",
+      "itemIndex": 8,
+      "indexTag": "#08",
+      "customTitle": "Delotto26 #08"
+    },
+    {
+      "id": "40de0edcfc",
+      "slug": "delotto26",
+      "source": {
+        "fileId": "1itw2N-kZ_fRkPG6hyZvvmsauR4f5fUKu",
+        "name": "Delotto26",
+        "folderPath": "Delotto26",
+        "md5": "a6bfd5509a3498461a28516f79f4535e",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 13274328,
+        "modifiedTime": "2026-09-10T05:04:23.206Z"
+      },
+      "avif": "images/delotto26-40de0edcfc.avif",
+      "webp": "images/delotto26-40de0edcfc.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 31856,
+        "webp": 54120
+      },
+      "createdAt": "2026-09-09T17:00:38.906Z",
+      "syncedAt": "2026-09-10T05:22:33.390Z",
+      "albumName": "Delotto26",
+      "albumSlug": "delotto26",
+      "itemIndex": 9,
+      "indexTag": "#09",
+      "customTitle": "Delotto26 #09"
+    },
+    {
+      "id": "8e6dee88ad",
+      "slug": "delotto26",
+      "source": {
+        "fileId": "1glrDM3k9VvA9qmAGcrros6Ggqk4OxjiL",
+        "name": "Delotto26",
+        "folderPath": "Delotto26",
+        "md5": "049bf351e3feedd003f1b3b51bbfcf0c",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 13003524,
+        "modifiedTime": "2026-09-10T05:04:25.896Z"
+      },
+      "avif": "images/delotto26-8e6dee88ad.avif",
+      "webp": "images/delotto26-8e6dee88ad.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 25226,
+        "webp": 42948
+      },
+      "createdAt": "2026-09-09T17:01:41.494Z",
+      "syncedAt": "2026-09-10T05:22:20.911Z",
+      "albumName": "Delotto26",
+      "albumSlug": "delotto26",
+      "itemIndex": 10,
+      "indexTag": "#10",
+      "customTitle": "Delotto26 #10"
+    },
+    {
+      "id": "c4d96a0e7b",
+      "slug": "delotto26",
+      "source": {
+        "fileId": "18HThiJV5K9V8hfXJOjAxhIPqJF8mbNw_",
+        "name": "Delotto26",
+        "folderPath": "Delotto26",
+        "md5": "ab5c5f12909229a1b956c1bd98768e2b",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 16178927,
+        "modifiedTime": "2026-09-10T05:04:19.966Z"
+      },
+      "avif": "images/delotto26-c4d96a0e7b.avif",
+      "webp": "images/delotto26-c4d96a0e7b.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 140146,
+        "webp": 246206
+      },
+      "createdAt": "2026-09-09T17:00:14.813Z",
+      "syncedAt": "2026-09-10T05:22:34.882Z",
+      "albumName": "Delotto26",
+      "albumSlug": "delotto26",
+      "itemIndex": 11,
+      "indexTag": "#11",
+      "customTitle": "Delotto26 #11"
+    },
+    {
+      "id": "3762878696",
+      "slug": "delotto26",
+      "source": {
+        "fileId": "1fmCggvBzNVrfFAy_B7Q4wGnZlszp3EmD",
+        "name": "Delotto26",
+        "folderPath": "Delotto26",
+        "md5": "e685773ff04ef78adb198c1b7b2c2da4",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 16764766,
+        "modifiedTime": "2026-09-10T05:04:32.470Z"
+      },
+      "avif": "images/delotto26-3762878696.avif",
+      "webp": "images/delotto26-3762878696.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 109312,
+        "webp": 174362
+      },
+      "createdAt": "2026-09-09T17:02:35.926Z",
+      "syncedAt": "2026-09-10T05:22:12.489Z",
+      "albumName": "Delotto26",
+      "albumSlug": "delotto26",
+      "itemIndex": 12,
+      "indexTag": "#12",
+      "customTitle": "Delotto26 #12"
+    },
+    {
+      "id": "1a90f00b27",
+      "slug": "delotto26",
+      "source": {
+        "fileId": "12MrRWiVDFDfChxfNPoSwUqa-_5bjgFC_",
+        "name": "Delotto26",
+        "folderPath": "Delotto26",
+        "md5": "a2dbd0b4808776a84768f12cec01c321",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 14451802,
+        "modifiedTime": "2026-09-10T05:04:17.530Z"
+      },
+      "avif": "images/delotto26-1a90f00b27.avif",
+      "webp": "images/delotto26-1a90f00b27.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": {
+        "avif": 84739,
+        "webp": 127976
+      },
+      "createdAt": "2026-09-09T17:00:08.567Z",
+      "syncedAt": "2026-09-10T05:22:52.771Z",
+      "albumName": "Delotto26",
+      "albumSlug": "delotto26",
+      "itemIndex": 13,
+      "indexTag": "#13",
+      "customTitle": "Delotto26 #13"
+    },
+    {
+      "id": "566a852369",
+      "slug": "delotto26",
+      "source": {
+        "fileId": "1dxEr04OIDymG6h4Dzp4xo40w9iHon3ca",
+        "name": "Delotto26",
+        "folderPath": "Delotto26",
+        "md5": "a0d40e8b0811c401d9268154afd01bc5",
+        "mimeType": "image/png",
+        "sizeBytes": 24688599,
+        "modifiedTime": "2026-09-10T05:04:14.380Z"
+      },
+      "avif": "images/delotto26-566a852369.avif",
+      "webp": "images/delotto26-566a852369.webp",
+      "width": 1920,
+      "height": 1080,
+      "bytes": {
+        "avif": 112839,
+        "webp": 198844
+      },
+      "createdAt": "2026-09-09T17:03:48.879Z",
+      "syncedAt": "2026-09-10T05:22:54.277Z",
+      "albumName": "Delotto26",
+      "albumSlug": "delotto26",
+      "itemIndex": 14,
+      "indexTag": "#14",
+      "customTitle": "Delotto26 #14"
+    }
+  ]
 }
