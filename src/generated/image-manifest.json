@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T02:26:24.610Z",
+  "generatedAt": "2026-09-10T03:07:45.324Z",
   "count": 33,
   "source": {
     "provider": "google-drive",
@@ -29,7 +29,7 @@
       },
       "createdAt": "2026-09-09T17:03:48.879Z",
       "syncedAt": "2026-09-10T02:23:05.618Z",
-      "category": "Moment",
+      "category": "Landscape",
       "detectedTheme": "Phong cảnh / Không gian (Landscape)",
       "customTitle": "Delotto-1",
       "sortOrder": 0
@@ -56,7 +56,7 @@
       },
       "createdAt": "2026-09-09T17:03:38.250Z",
       "syncedAt": "2026-09-10T02:23:05.619Z",
-      "category": "Moment",
+      "category": "Group",
       "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
       "customTitle": "Delotto-2",
       "sortOrder": 0
@@ -898,6 +898,5 @@
       "customTitle": "UP",
       "sortOrder": 0
     }
-  ],
-  "updatedAt": "2026-09-10T02:46:23.930Z"
+  ]
 }
