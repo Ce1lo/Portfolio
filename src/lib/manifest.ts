@@ -18,15 +18,18 @@ export type PortfolioImage = {
     sizeBytes: number;
     modifiedTime: string | null;
   };
-  /** Public URL paths, already prefixed with /images. */
   avif: string;
   webp: string;
-  /** Intrinsic pixel size of the encoded output. Always set both to avoid CLS. */
   width: number;
   height: number;
   bytes: { avif: number; webp: number };
   createdAt: string;
   syncedAt: string;
+  // Curation & classification extensions
+  customTitle?: string;
+  category?: "Portrait" | "Group" | "Landscape" | "Moment" | "Nocturne" | string;
+  detectedTheme?: string;
+  sortOrder?: number;
 };
 
 export type ImageManifest = {

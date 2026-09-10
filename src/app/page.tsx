@@ -1,20 +1,17 @@
-import { Hero, StatsBand } from "@/components/Hero";
-import { Projects } from "@/components/Projects";
-import { About } from "@/components/About";
-import { Skills } from "@/components/Skills";
-import { Gallery } from "@/components/Gallery";
+import { Hero } from "@/components/Hero";
+import { AlbumsSection } from "@/components/AlbumsSection";
+import { ArchiveGallery } from "@/components/ArchiveGallery";
+import { CuratorSection } from "@/components/CuratorSection";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
 
 export default function Page() {
   return (
-    <main id="top" className="relative flex flex-col">
+    <main className="overflow-x-hidden w-full max-w-full relative flex flex-col">
       <Hero />
-      <StatsBand />
-      <Projects />
-      <About />
-      <Skills />
-      <Gallery />
+      <AlbumsSection />
+      <ArchiveGallery />
+      <CuratorSection />
       <Contact />
       <Footer />
     </main>

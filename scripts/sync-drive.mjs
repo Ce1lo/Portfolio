@@ -155,7 +155,7 @@ function loadCredentials() {
   for (const candidate of KEY_FILE_CANDIDATES) {
     const abs = resolveFromRoot(candidate);
     if (existsSync(abs)) {
-      const auth = new google.auth.JWT({ keyFile: abs, scopes: cfg.scopes });
+      const auth = new google.auth.GoogleAuth({ keyFile: abs, scopes: cfg.scopes });
       return { auth, source: abs };
     }
   }

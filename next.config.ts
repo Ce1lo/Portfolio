@@ -1,11 +1,11 @@
 import type { NextConfig } from "next";
 
+const isDev = process.env.NODE_ENV !== "production";
+
 const CONTENT_SECURITY_POLICY = [
   "default-src 'self'",
-  "script-src 'self' 'unsafe-inline'",
+  `script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ""}`,
   "style-src 'self' 'unsafe-inline'",
-  // 'unsafe-inline' for script/style is required by Next.js hydration data and by
-  // Tailwind's runtime style injection. This is a baseline policy, not a hardened one.
   "img-src 'self' data: blob: https://picsum.photos https://fastly.picsum.photos",
   "font-src 'self'",
   "connect-src 'self' https: wss:",

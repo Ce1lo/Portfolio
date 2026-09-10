@@ -2,41 +2,27 @@
 
 import { useState } from "react";
 import {
-  GithubLogo,
-  LinkedinLogo,
+  InstagramLogo,
+  Globe,
   EnvelopeSimple,
   Copy,
   Check,
   ArrowUpRight,
-  Globe,
-  GitlabLogo,
+  LinkedinLogo,
 } from "@phosphor-icons/react";
 import { profile, socials, CTA_LABELS } from "@/content/portfolio";
-import { SectionHeading } from "@/components/SectionHeading";
-import { Reveal } from "@/components/Reveal";
 import { Z } from "@/lib/z";
 
 const ICON_MAP = {
-  github: GithubLogo,
+  instagram: InstagramLogo,
+  behance: Globe,
   linkedin: LinkedinLogo,
   envelope: EnvelopeSimple,
-  gitlab: GitlabLogo,
   globe: Globe,
 };
 
-/**
- * Contact section.
- *
- * Layout family: centered CTA band.
- * Provides direct mailto access plus an inline clipboard copy with a transient
- * toast confirmation. Social channels are pulled cleanly from configuration.
- *
- * CTA Label Check: uses `CTA_LABELS.secondary` ("Get in touch") exclusively.
- * Eyebrow budget: zero eyebrows here.
- */
 export function Contact() {
   const [copied, setCopied] = useState(false);
-
   const cleanEmail = profile.email.replace(/^EDIT:\s*/, "");
 
   const copyEmail = async () => {
@@ -50,43 +36,43 @@ export function Contact() {
   };
 
   return (
-    <section id="contact" className="hairline-t bg-bg py-24 md:py-32">
+    <section id="contact" className="py-32 md:py-48 hairline-t bg-bg relative">
       <div className="max-shell px-5 md:px-8">
-        <div className="mx-auto max-w-3xl text-center">
-          <SectionHeading
-            align="center"
-            headline="Let us talk systems."
-            body={
-              <p>
-                Currently exploring Backend Intern positions starting March 2027.
-                Open to technical discussions, architecture critique, or roadmap exchanges.
-              </p>
-            }
-          />
+        <div className="mx-auto max-w-4xl text-center">
+          <span className="font-mono text-xs uppercase tracking-widest text-accent">
+            Inquiries & Representation
+          </span>
+          <h2 className="mt-4 text-4xl sm:text-6xl font-medium tracking-tight text-fg">
+            Initiate a Commission.
+          </h2>
+          <p className="mx-auto mt-6 max-w-2xl text-base md:text-lg text-fg-muted leading-relaxed">
+            Available for editorial assignments, artist profiles, fine-art print acquisitions,
+            and collaborative exhibitions. Let us shape a timeless visual narrative.
+          </p>
 
-          <Reveal from="up" delay={0.12} className="mt-12 flex flex-col items-center gap-6">
-            <div className="flex flex-wrap items-center justify-center gap-3">
+          <div className="mt-12 flex flex-col items-center gap-6">
+            <div className="flex flex-wrap items-center justify-center gap-4">
               <a
                 href={`mailto:${cleanEmail}`}
-                className="press inline-flex items-center gap-2 rounded-full bg-accent px-8 py-3.5 text-base font-medium text-accent-fg hover:bg-accent-hover shadow-tinted"
+                className="press inline-flex items-center gap-2 rounded-full bg-accent px-9 py-4 text-base font-medium text-accent-fg hover:bg-accent-hover shadow-tinted"
               >
-                <EnvelopeSimple size={18} weight="bold" />
+                <EnvelopeSimple size={19} weight="bold" />
                 {CTA_LABELS.secondary}
               </a>
 
               <button
                 type="button"
                 onClick={copyEmail}
-                className="press inline-flex items-center gap-2 rounded-full border border-hairline-strong bg-surface px-6 py-3.5 text-base font-medium text-fg hover:border-fg-subtle"
+                className="press inline-flex items-center gap-2 rounded-full border border-hairline-strong bg-surface/90 px-7 py-4 text-base font-medium text-fg hover:border-fg-subtle shadow-tinted"
               >
                 {copied ? (
                   <>
-                    <Check size={18} weight="bold" className="text-emerald-500" />
+                    <Check size={19} weight="bold" className="text-emerald-500" />
                     <span>Copied</span>
                   </>
                 ) : (
                   <>
-                    <Copy size={18} weight="regular" />
+                    <Copy size={19} weight="regular" />
                     <span>Copy email</span>
                   </>
                 )}
@@ -95,8 +81,8 @@ export function Contact() {
 
             <div className="font-mono text-sm text-fg-muted">{cleanEmail}</div>
 
-            {/* Social links */}
-            <div className="mt-8 flex flex-wrap items-center justify-center gap-6 hairline-t pt-8">
+            {/* Social channels */}
+            <div className="mt-10 flex flex-wrap items-center justify-center gap-8 hairline-t pt-8 w-full max-w-lg">
               {socials.map((s) => {
                 const IconComponent = ICON_MAP[s.icon] ?? Globe;
                 const cleanHref = s.href.replace(/^EDIT:\s*/, "");
@@ -106,20 +92,19 @@ export function Contact() {
                     href={cleanHref}
                     target="_blank"
                     rel="noreferrer"
-                    className="press flex items-center gap-1.5 text-sm font-medium text-fg-muted hover:text-fg"
+                    className="press flex items-center gap-2 text-sm font-medium text-fg-muted hover:text-fg"
                   >
-                    <IconComponent size={18} weight="regular" />
+                    <IconComponent size={19} weight="regular" />
                     <span>{s.label}</span>
                     <ArrowUpRight size={13} weight="bold" className="text-fg-subtle" />
                   </a>
                 );
               })}
             </div>
-          </Reveal>
+          </div>
         </div>
       </div>
 
-      {/* Copy Toast */}
       {copied && (
         <div
           role="status"

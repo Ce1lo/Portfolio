@@ -48,3 +48,5 @@ gcp-*.json
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+public/images
