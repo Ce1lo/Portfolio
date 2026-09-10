@@ -9,6 +9,7 @@ import {
   Check,
   ArrowUpRight,
   LinkedinLogo,
+  Terminal,
 } from "@phosphor-icons/react";
 import { profile, socials, CTA_LABELS } from "@/content/portfolio";
 import { Z } from "@/lib/z";
@@ -36,53 +37,58 @@ export function Contact() {
   };
 
   return (
-    <section id="contact" className="py-32 md:py-48 hairline-t bg-bg relative">
-      <div className="max-shell px-5 md:px-8">
-        <div className="mx-auto max-w-4xl text-center">
-          <span className="font-mono text-xs uppercase tracking-widest text-accent">
-            Inquiries & Representation
-          </span>
-          <h2 className="mt-4 text-4xl sm:text-6xl font-medium tracking-tight text-fg">
-            Initiate a Commission.
+    <section id="contact" className="py-24 md:py-36 hairline-t bg-bg relative">
+      <div className="max-shell px-4 sm:px-6 md:px-8">
+        <div className="mx-auto max-w-3xl text-center">
+          <div className="inline-flex items-center gap-1.5 font-arcade text-xs uppercase tracking-wider text-accent mb-3">
+            <Terminal size={14} weight="bold" />
+            <span>[CONTACT.ROM // DIRECT_INQUIRY]</span>
+          </div>
+
+          <h2 className="text-3xl sm:text-5xl font-sans font-medium tracking-tight text-fg">
+            Get in Touch
           </h2>
-          <p className="mx-auto mt-6 max-w-2xl text-base md:text-lg text-fg-muted leading-relaxed">
-            Available for editorial assignments, artist profiles, fine-art print acquisitions,
-            and collaborative exhibitions. Let us shape a timeless visual narrative.
+
+          <p className="mx-auto mt-4 max-w-xl font-mono text-sm sm:text-base text-fg-muted leading-relaxed">
+            Available for event coverage, documentary assignments, and print acquisitions.
+            Reach out directly via email or personal channels.
           </p>
 
-          <div className="mt-12 flex flex-col items-center gap-6">
+          <div className="mt-10 flex flex-col items-center gap-6">
             <div className="flex flex-wrap items-center justify-center gap-4">
               <a
                 href={`mailto:${cleanEmail}`}
-                className="press inline-flex items-center gap-2 rounded-full bg-accent px-9 py-4 text-base font-medium text-accent-fg hover:bg-accent-hover shadow-tinted"
+                className="pixel-press inline-flex items-center gap-2 border-2 border-fg bg-accent px-8 py-3.5 font-arcade text-xs sm:text-sm text-accent-fg shadow-pixel hover:bg-accent-hover"
               >
-                <EnvelopeSimple size={19} weight="bold" />
-                {CTA_LABELS.secondary}
+                <EnvelopeSimple size={18} weight="bold" />
+                <span>{CTA_LABELS.secondary.toUpperCase()}</span>
               </a>
 
               <button
                 type="button"
                 onClick={copyEmail}
-                className="press inline-flex items-center gap-2 rounded-full border border-hairline-strong bg-surface/90 px-7 py-4 text-base font-medium text-fg hover:border-fg-subtle shadow-tinted"
+                className="pixel-press inline-flex items-center gap-2 border-2 border-fg bg-surface px-7 py-3.5 font-arcade text-xs sm:text-sm text-fg shadow-pixel hover:border-accent"
               >
                 {copied ? (
                   <>
-                    <Check size={19} weight="bold" className="text-emerald-500" />
-                    <span>Copied</span>
+                    <Check size={18} weight="bold" className="text-emerald-500" />
+                    <span>[COPIED!]</span>
                   </>
                 ) : (
                   <>
-                    <Copy size={19} weight="regular" />
-                    <span>Copy email</span>
+                    <Copy size={18} weight="bold" />
+                    <span>[COPY EMAIL]</span>
                   </>
                 )}
               </button>
             </div>
 
-            <div className="font-mono text-sm text-fg-muted">{cleanEmail}</div>
+            <div className="border border-hairline-strong bg-bg-sunken px-4 py-2 font-mono text-xs sm:text-sm text-fg shadow-pixel-sm">
+              &gt; {cleanEmail}
+            </div>
 
             {/* Social channels */}
-            <div className="mt-10 flex flex-wrap items-center justify-center gap-8 hairline-t pt-8 w-full max-w-lg">
+            <div className="mt-6 flex flex-wrap items-center justify-center gap-3 w-full max-w-lg pt-6 border-t border-hairline">
               {socials.map((s) => {
                 const IconComponent = ICON_MAP[s.icon] ?? Globe;
                 const cleanHref = s.href.replace(/^EDIT:\s*/, "");
@@ -92,11 +98,11 @@ export function Contact() {
                     href={cleanHref}
                     target="_blank"
                     rel="noreferrer"
-                    className="press flex items-center gap-2 text-sm font-medium text-fg-muted hover:text-fg"
+                    className="pixel-press inline-flex items-center gap-2 border-2 border-hairline-strong bg-surface px-4 py-2 font-arcade text-xs text-fg hover:border-accent hover:text-accent shadow-pixel-sm"
                   >
-                    <IconComponent size={19} weight="regular" />
-                    <span>{s.label}</span>
-                    <ArrowUpRight size={13} weight="bold" className="text-fg-subtle" />
+                    <IconComponent size={16} weight="bold" />
+                    <span>{s.label.toUpperCase()}</span>
+                    <ArrowUpRight size={12} weight="bold" className="text-fg-subtle" />
                   </a>
                 );
               })}
@@ -109,9 +115,9 @@ export function Contact() {
         <div
           role="status"
           aria-live="polite"
-          className={`fixed bottom-6 right-6 rounded-full border border-hairline-strong bg-surface px-4 py-2 text-xs font-medium text-fg shadow-tinted-lg ${Z.toast}`}
+          className={`fixed bottom-6 right-6 border-2 border-fg bg-surface px-4 py-2 font-arcade text-xs text-fg shadow-pixel ${Z.toast}`}
         >
-          Email address copied to clipboard
+          [SUCCESS]: EMAIL COPIED TO CLIPBOARD
         </div>
       )}
     </section>

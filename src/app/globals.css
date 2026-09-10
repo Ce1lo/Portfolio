@@ -78,12 +78,12 @@
 
   --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
   --font-mono: var(--font-geist-mono), ui-monospace, SFMono-Regular, monospace;
+  --font-display: var(--font-display), ui-sans-serif, system-ui, sans-serif;
+  --font-arcade: var(--font-arcade), monospace;
 
-  /* SHAPE CONSISTENCY LOCK: exactly one radius scale for the whole page.
-     Rule: interactive controls are full-pill, surfaces and media are 12px,
-     small inline chips are 8px. Nothing else. */
-  --radius-surface: 12px;
-  --radius-chip: 8px;
+  /* RETRO PIXEL SHAPE: crisp square corners with 0px radius for authentic 8-bit/16-bit aesthetic */
+  --radius-surface: 0px;
+  --radius-chip: 0px;
 }
 
 @layer base {
@@ -169,16 +169,48 @@
     transform: translateY(1px) scale(0.985);
   }
 
+  /* Refined retro shadows: soft ambient depth with subtle hairline structure */
+  .shadow-pixel-sm {
+    box-shadow:
+      0 1px 3px rgb(var(--shadow-tint) / 0.08),
+      2px 2px 0px 0px var(--hairline-strong);
+  }
+
+  .shadow-pixel {
+    box-shadow:
+      0 4px 16px -2px rgb(var(--shadow-tint) / 0.14),
+      3px 3px 0px 0px var(--hairline-strong);
+  }
+
+  .shadow-pixel-lg {
+    box-shadow:
+      0 12px 32px -6px rgb(var(--shadow-tint) / 0.22),
+      4px 4px 0px 0px var(--hairline-strong);
+  }
+
+  .shadow-pixel-accent {
+    box-shadow:
+      0 6px 20px -3px color-mix(in srgb, var(--accent) 30%, transparent),
+      3px 3px 0px 0px var(--accent);
+  }
+
+  /* Retro pixel button stepped press feedback */
+  .pixel-press {
+    transition: transform 70ms ease, box-shadow 70ms ease, background-color 150ms ease, border-color 150ms ease;
+  }
+
+  .pixel-press:active {
+    transform: translate(1px, 1px);
+    box-shadow: 0px 0px 0px 0px transparent !important;
+  }
+
   .hairline-t {
     border-top: 1px solid var(--hairline);
   }
 }
 
 /* --------------------------------------------------------------------------
-   Fixed film grain.
-   Applied to a single fixed, pointer-events-none element (mounted in
-   layout.tsx), never to a scrolling container. Repainting a grain layer on a
-   scroller destroys mobile frame rate.
+   CRT Scanline & Pixel Grid Overlay
    -------------------------------------------------------------------------- */
 .grain-layer {
   position: fixed;
@@ -186,7 +218,15 @@
   z-index: 60;
   pointer-events: none;
   opacity: var(--noise-opacity);
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-image:
+    repeating-linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.25) 0px,
+      rgba(0, 0, 0, 0.25) 1px,
+      transparent 1px,
+      transparent 3px
+    ),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");
   background-repeat: repeat;
   mix-blend-mode: overlay;
 }

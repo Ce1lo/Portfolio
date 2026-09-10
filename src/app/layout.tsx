@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Space_Grotesk, Silkscreen } from "next/font/google";
 import { site } from "@/content/portfolio";
 import { ThemeScript } from "@/components/ThemeScript";
 import { Grain } from "@/components/Grain";
@@ -14,6 +14,19 @@ const geistSans = Geist({
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
+  subsets: ["latin"],
+  display: "swap",
+});
+
+const spaceGrotesk = Space_Grotesk({
+  variable: "--font-display",
+  subsets: ["latin", "latin-ext"],
+  display: "swap",
+});
+
+const silkscreen = Silkscreen({
+  variable: "--font-arcade",
+  weight: ["400", "700"],
   subsets: ["latin"],
   display: "swap",
 });
@@ -55,7 +68,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html
       lang={site.locale}
       suppressHydrationWarning
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} ${spaceGrotesk.variable} ${silkscreen.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-bg text-fg">
         <ThemeScript />
