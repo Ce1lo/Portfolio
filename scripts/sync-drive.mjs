@@ -146,9 +146,10 @@ function loadCredentials() {
           "(missing type=service_account or private_key).",
       );
     }
-    const auth = google.auth.fromJSON(parsed);
-    if (!auth) throw new Error("google.auth.fromJSON returned no client for the provided key.");
-    auth.scopes = cfg.scopes;
+    const auth = new google.auth.GoogleAuth({
+      credentials: parsed,
+      scopes: cfg.scopes,
+    });
     return { auth, source: "GOOGLE_SERVICE_ACCOUNT_JSON" };
   }
 
