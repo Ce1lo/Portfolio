@@ -58,13 +58,13 @@ export function ArchiveGallery() {
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10">
           <div>
             <span className="font-arcade text-xs text-accent uppercase tracking-wider block mb-2">
-              [GALLERY.ROM // MASTER_ARCHIVE]
+              [GALLERY.ROM // PHOTO_STREAM]
             </span>
             <h2 className="text-3xl sm:text-5xl font-sans font-medium tracking-tight text-fg">
-              The Master Gallery
+              Photo Gallery
             </h2>
             <p className="mt-2 text-sm sm:text-base font-mono text-fg-muted max-w-xl">
-              Photographic archive streamed live from Google Drive, cataloged by event series.
+              Photos uploaded to Google Drive, sorted and categorized by album.
             </p>
           </div>
 

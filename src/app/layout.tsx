@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono, Space_Grotesk, Silkscreen } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import { site } from "@/content/portfolio";
 import { ThemeScript } from "@/components/ThemeScript";
 import { Grain } from "@/components/Grain";
@@ -75,6 +76,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Grain />
         <Nav />
         <div className="flex-1">{children}</div>
+        <Analytics />
       </body>
     </html>
   );

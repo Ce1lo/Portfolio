@@ -1,6 +1,7 @@
 "use client";
 
-import { useCallback, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
+import Link from "next/link";
 import { motion, useReducedMotion, useScroll, useSpring } from "motion/react";
 import { List, X, ArrowUpRight } from "@phosphor-icons/react";
 import { nav, profile, CTA_LABELS } from "@/content/portfolio";
@@ -9,6 +10,7 @@ import { cx } from "@/lib/cx";
 import { Z } from "@/lib/z";
 
 const SECTION_IDS = nav.map((item) => item.id);
+type SectionId = (typeof nav)[number]["id"];
 
 export function Nav() {
   const [active, setActive] = useState<string>(SECTION_IDS[0]);
@@ -22,6 +24,7 @@ export function Nav() {
     restDelta: 0.001,
   });
 
+  // Track active section via IntersectionObserver
   useEffect(() => {
     const observers: IntersectionObserver[] = [];
 
@@ -34,7 +37,7 @@ export function Nav() {
             if (entry.isIntersecting) setActive(id);
           }
         },
-        { rootMargin: "-25% 0px -65% 0px", threshold: 0 },
+        { rootMargin: "-20% 0px -60% 0px", threshold: 0 },
       );
       observer.observe(el);
       observers.push(observer);
@@ -45,6 +48,21 @@ export function Nav() {
     };
   }, []);
 
+  // Listen to hash changes in URL (browser back/forward & direct anchor hits)
+  useEffect(() => {
+    const onHashChange = () => {
+      const hash = window.location.hash.replace("#", "") as SectionId;
+      if (SECTION_IDS.includes(hash)) {
+        setActive(hash);
+      } else if (!window.location.hash) {
+        setActive(SECTION_IDS[0]);
+      }
+    };
+    window.addEventListener("hashchange", onHashChange);
+    return () => window.removeEventListener("hashchange", onHashChange);
+  }, []);
+
+  // Escape key closes mobile menu
   useEffect(() => {
     if (!open) return;
     const onKey = (event: KeyboardEvent) => {
@@ -59,17 +77,6 @@ export function Nav() {
     };
   }, [open]);
 
-  const go = useCallback((id: string) => {
-    setOpen(false);
-    if (id === "top") {
-      window.scrollTo({ top: 0, behavior: "auto" });
-      return;
-    }
-    const el = document.getElementById(id);
-    if (!el) return;
-    el.scrollIntoView({ block: "start" });
-  }, []);
-
   return (
     <>
       <header
@@ -79,27 +86,26 @@ export function Nav() {
         )}
       >
         <div className="max-shell flex h-[64px] items-center justify-between px-4 sm:px-6 md:px-8">
-          {/* Retro Pixel Logo */}
-          <button
-            type="button"
-            onClick={() => go("top")}
+          {/* Retro Pixel Logo - Native Link */}
+          <Link
+            href="/#top"
+            onClick={() => setOpen(false)}
             aria-label="Back to top"
             className="pixel-press shrink-0 font-arcade text-sm sm:text-base font-bold tracking-wider text-fg flex items-center gap-1"
           >
             <span>{profile.shortName.toUpperCase()}</span>
             <span className="text-accent">.ROM</span>
             <span className="inline-block w-2 h-3.5 bg-accent animate-pulse ml-0.5" />
-          </button>
+          </Link>
 
-          {/* Desktop Navigation */}
+          {/* Desktop Navigation - Native Anchor Links */}
           <nav aria-label="Sections" className="hidden items-center gap-2 md:flex">
             {nav.map((item) => {
               const isActive = active === item.id;
               return (
-                <button
+                <Link
                   key={item.id}
-                  type="button"
-                  onClick={() => go(item.id)}
+                  href={`/#${item.id}`}
                   aria-current={isActive ? "true" : undefined}
                   className={cx(
                     "pixel-press relative px-3.5 py-1.5 font-arcade text-xs uppercase transition-all",
@@ -109,7 +115,7 @@ export function Nav() {
                   )}
                 >
                   <span>[{item.label}]</span>
-                </button>
+                </Link>
               );
             })}
           </nav>
@@ -118,14 +124,13 @@ export function Nav() {
           <div className="flex items-center gap-2.5">
             <ThemeToggle />
 
-            <button
-              type="button"
-              onClick={() => go("contact")}
+            <Link
+              href="/#contact"
               className="pixel-press hidden items-center gap-1.5 border-2 border-fg bg-accent px-4 py-1.5 font-arcade text-xs uppercase text-accent-fg shadow-pixel-sm hover:bg-accent-hover sm:inline-flex"
             >
               <span>{CTA_LABELS.secondary}</span>
               <ArrowUpRight size={14} weight="bold" aria-hidden="true" />
-            </button>
+            </Link>
 
             <button
               type="button"
@@ -190,14 +195,14 @@ export function Nav() {
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: reduce ? 0 : index * 0.04, duration: 0.2 }}
                 >
-                  <button
-                    type="button"
-                    onClick={() => go(item.id)}
+                  <Link
+                    href={`/#${item.id}`}
+                    onClick={() => setOpen(false)}
                     className="flex w-full items-center justify-between py-2.5 px-3 border border-hairline-strong bg-bg-sunken text-left font-arcade text-sm font-bold text-fg hover:border-accent hover:text-accent"
                   >
                     <span>[{item.label}]</span>
                     <ArrowUpRight size={16} weight="bold" className="text-fg-subtle" aria-hidden="true" />
-                  </button>
+                  </Link>
                 </motion.li>
               ))}
             </ul>

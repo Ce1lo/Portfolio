@@ -1,8 +1,8 @@
 /**
  * ---------------------------------------------------------------------------
- *  PHOTOGRAPHIC ARCHIVE & EXHIBITION MANIFEST
+ *  PERSONAL PHOTO ARCHIVE & SHOWCASE
  * ---------------------------------------------------------------------------
- *  Curated collection, narrative statements, and contact.
+ *  Personal photo collection and contact information.
  *  Images stream directly from your Google Drive synced manifest.
  */
 
@@ -15,10 +15,10 @@ export type SocialLink = {
 export const profile = {
   name: "Lâm Quốc Toàn",
   shortName: "Orywt",
-  role: "Visual Artist & Documentary Photographer",
+  role: "Student & Hobbyist Photographer",
   location: "Ho Chi Minh City, Vietnam",
   email: "toan.orywt@icloud.com",
-  availability: "[ONLINE] Available for commissions & event coverage",
+  availability: "[AVAILABLE] Open for photo shoots & collaborations",
 } as const;
 
 export const socials: SocialLink[] = [
@@ -33,37 +33,37 @@ export const nav = [
 ] as const;
 
 export const CTA_LABELS = {
-  primary: "Explore Gallery",
-  secondary: "Get in Touch",
+  primary: "View Gallery",
+  secondary: "Contact Me",
 } as const;
 
 export const hero = {
-  eyebrow: "SYS.ROM // ARCHIVE 2025-2026",
-  headline: ["The human presence,", "captured frame by frame."],
+  eyebrow: "ORYWT.ROM // PHOTO ARCHIVE",
+  headline: ["Moments captured,", "one frame at a time."],
   subtext:
-    "An evolving visual archive capturing human gesture and event cadence across Ho Chi Minh City. Synced live from Google Drive.",
+    "A personal collection of photos taken around Ho Chi Minh City, synced straight from Google Drive.",
   fallbackSeed: "cinematic-vietnam-portrait-film-light",
 } as const;
 
 export const aboutStatement = {
-  eyebrow: "ABOUT.TXT // PROFILE",
-  headline: "Observing fleeting moments through natural light.",
+  eyebrow: "ABOUT.TXT // BIO",
+  headline: "Just someone who likes taking photos.",
   paragraphs: [
-    "I am Lâm Quốc Toàn (Orywt), a visual artist and documentary photographer based in Ho Chi Minh City, Vietnam.",
-    "Every photograph in this collection was captured under ambient conditions, preserving authentic emotion, urban texture, and the honest cadence of everyday life.",
+    "Hey, I am Lâm Quốc Toàn (Orywt), a student based in Ho Chi Minh City.",
+    "Photography is my hobby. I enjoy capturing campus events, street scenes, and everyday moments with friends. This website is where I keep and share my favorite shots.",
   ],
   stats: [
-    { value: "LIVE", label: "cloud archive stream" },
-    { value: "SYNC", label: "Google Drive automation" },
-    { value: "HCM", label: "primary operating base" },
+    { value: "HCM", label: "based in" },
+    { value: "PHOTO", label: "hobby & passion" },
+    { value: "DRIVE", label: "cloud synced" },
   ],
 } as const;
 
 export const site = {
   url: "https://orywt.vercel.app",
-  title: `${profile.name} (${profile.shortName}) - Photography Archive & Visual Gallery`,
+  title: `${profile.name} (${profile.shortName}) - Photo Gallery`,
   description:
-    "Curated photographic gallery and visual archive of Lâm Quốc Toàn (Orywt) based in Ho Chi Minh City, Vietnam.",
+    "Personal photo gallery of Lâm Quốc Toàn (Orywt), student and hobbyist photographer based in Ho Chi Minh City.",
   locale: "en",
   themeColor: "#c2410c",
 } as const;

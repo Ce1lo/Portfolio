@@ -42,7 +42,7 @@ export function Contact() {
         <div className="mx-auto max-w-3xl text-center">
           <div className="inline-flex items-center gap-1.5 font-arcade text-xs uppercase tracking-wider text-accent mb-3">
             <Terminal size={14} weight="bold" />
-            <span>[CONTACT.ROM // DIRECT_INQUIRY]</span>
+            <span>[CONTACT.ROM // SAY_HELLO]</span>
           </div>
 
           <h2 className="text-3xl sm:text-5xl font-sans font-medium tracking-tight text-fg">
@@ -50,8 +50,7 @@ export function Contact() {
           </h2>
 
           <p className="mx-auto mt-4 max-w-xl font-mono text-sm sm:text-base text-fg-muted leading-relaxed">
-            Available for event coverage, documentary assignments, and print acquisitions.
-            Reach out directly via email or personal channels.
+            Feel free to reach out if you want to collaborate, need someone to take photos for your event, or just want to say hi.
           </p>
 
           <div className="mt-10 flex flex-col items-center gap-6">
