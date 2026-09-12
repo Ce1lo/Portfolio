@@ -22,7 +22,7 @@ export async function POST(req: Request) {
     // Nếu chạy trên Vercel hoặc có GITHUB_TOKEN: commit trực tiếp lên repo
     const githubToken = process.env.GITHUB_TOKEN;
     const githubRepo = process.env.GITHUB_REPO || "Ce1lo/Portfolio";
-    const githubBranch = process.env.GITHUB_BRANCH || "main";
+    const githubBranch = process.env.GITHUB_BRANCH || "master";
     const targetFilePath = "src/generated/image-manifest.json";
 
     if (process.env.VERCEL || githubToken) {
