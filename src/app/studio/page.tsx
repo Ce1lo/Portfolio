@@ -243,7 +243,6 @@ export default function StudioPage() {
         <div className="flex items-center gap-3">
           <Link
             href="/"
-            target="_blank"
             className="press hidden sm:inline-flex items-center gap-1.5 rounded-full border border-hairline bg-surface px-4 py-2 text-xs font-mono text-fg-muted hover:text-fg"
           >
             <span>Xem trang chính</span>
