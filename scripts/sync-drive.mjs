@@ -395,8 +395,16 @@ async function main() {
     written.push(`${file.name} [${src}] -> avif ${(variants.avif.byteLength / 1024).toFixed(1)} KB (saved ~${savedKb} KB)`);
   });
 
+  // Tạo map tra cứu thứ tự và thông tin đã chỉnh sửa từ manifest cũ
+  const prevOrderMap = new Map(previous.images.map((img, idx) => [img.source.fileId, idx]));
+
   kept.sort((a, b) => {
-    // Sắp xếp theo Album trước, sau đó theo tên file gốc hoặc thời gian tạo
+    // Ưu tiên giữ nguyên thứ tự sắp xếp từ manifest trước đó
+    const orderA = prevOrderMap.has(a.source.fileId) ? prevOrderMap.get(a.source.fileId) : Infinity;
+    const orderB = prevOrderMap.has(b.source.fileId) ? prevOrderMap.get(b.source.fileId) : Infinity;
+    if (orderA !== orderB) return orderA - orderB;
+
+    // Ảnh mới chưa có trong manifest cũ thì sort theo thư mục và tên file
     const folderCompare = String(a.source.folderPath ?? "").localeCompare(String(b.source.folderPath ?? ""));
     if (folderCompare !== 0) return folderCompare;
     return String(a.source.name).localeCompare(String(b.source.name));
@@ -405,6 +413,7 @@ async function main() {
   // Tự động gán Album name, Album slug và STT cho từng ảnh theo thư mục
   const albumCounters = new Map();
   for (const img of kept) {
+    const prev = prevByFileId.get(img.source.fileId);
     const rawFolder = img.source.folderPath ? img.source.folderPath.trim() : "";
     const albumName = rawFolder.length > 0 ? rawFolder.split("/").pop() : "Highlights";
     const albumSlug = slugify(albumName);
@@ -418,8 +427,11 @@ async function main() {
     img.albumSlug = albumSlug;
     img.itemIndex = currentCount;
     img.indexTag = `#${indexNumber}`;
-    // Tự động gán tiêu đề có STT nếu chưa đặt tên riêng
-    img.customTitle = `${albumName} #${indexNumber}`;
+    // Giữ lại customTitle và category đã chỉnh trong Studio nếu có
+    img.customTitle = prev?.customTitle || `${albumName} #${indexNumber}`;
+    if (prev?.category) {
+      img.category = prev.category;
+    }
   }
 
   const manifest = {
