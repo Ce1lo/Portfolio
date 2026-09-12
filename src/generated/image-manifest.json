@@ -61,6 +61,68 @@
       "sortOrder": 0
     },
     {
+      "id": "566a852369",
+      "slug": "delotto26",
+      "source": {
+        "fileId": "1dxEr04OIDymG6h4Dzp4xo40w9iHon3ca",
+        "name": "Delotto26",
+        "folderPath": "Delotto26",
+        "md5": "a0d40e8b0811c401d9268154afd01bc5",
+        "mimeType": "image/png",
+        "sizeBytes": 24688599,
+        "modifiedTime": "2026-09-10T05:04:14.380Z"
+      },
+      "avif": "images/delotto26-566a852369.avif",
+      "webp": "images/delotto26-566a852369.webp",
+      "width": 1920,
+      "height": 1080,
+      "bytes": {
+        "avif": 112839,
+        "webp": 198844
+      },
+      "createdAt": "2026-09-09T17:03:48.879Z",
+      "syncedAt": "2026-09-10T05:22:54.277Z",
+      "albumName": "Delotto26",
+      "albumSlug": "delotto26",
+      "itemIndex": 16,
+      "indexTag": "#16",
+      "customTitle": "Delotto26 #16",
+      "category": "Landscape",
+      "detectedTheme": "Phong cảnh / Không gian (Landscape)",
+      "sortOrder": 0
+    },
+    {
+      "id": "6dd01e94bf",
+      "slug": "2",
+      "source": {
+        "fileId": "108ThwXyAf5TGWH0Qz21xt19UV8MjPo5T",
+        "name": "2",
+        "folderPath": "C!SV25",
+        "md5": "b3ee4831d24c22f89dd67e4d14268e87",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 267266,
+        "modifiedTime": "2026-09-10T09:47:36.042Z"
+      },
+      "avif": "images/2-6dd01e94bf.avif",
+      "webp": "images/2-6dd01e94bf.webp",
+      "width": 1920,
+      "height": 1081,
+      "bytes": {
+        "avif": 69839,
+        "webp": 105950
+      },
+      "createdAt": "2026-09-10T08:19:35.626Z",
+      "syncedAt": "2026-09-10T09:49:13.852Z",
+      "albumName": "C!SV25",
+      "albumSlug": "c-sv25",
+      "itemIndex": 3,
+      "indexTag": "#03",
+      "customTitle": "C!SV25 #03",
+      "category": "Landscape",
+      "detectedTheme": "Phong cảnh / Không gian (Landscape)",
+      "sortOrder": 0
+    },
+    {
       "id": "9931cda769",
       "slug": "delotto26",
       "source": {
@@ -123,37 +185,6 @@
       "sortOrder": 0
     },
     {
-      "id": "566a852369",
-      "slug": "delotto26",
-      "source": {
-        "fileId": "1dxEr04OIDymG6h4Dzp4xo40w9iHon3ca",
-        "name": "Delotto26",
-        "folderPath": "Delotto26",
-        "md5": "a0d40e8b0811c401d9268154afd01bc5",
-        "mimeType": "image/png",
-        "sizeBytes": 24688599,
-        "modifiedTime": "2026-09-10T05:04:14.380Z"
-      },
-      "avif": "images/delotto26-566a852369.avif",
-      "webp": "images/delotto26-566a852369.webp",
-      "width": 1920,
-      "height": 1080,
-      "bytes": {
-        "avif": 112839,
-        "webp": 198844
-      },
-      "createdAt": "2026-09-09T17:03:48.879Z",
-      "syncedAt": "2026-09-10T05:22:54.277Z",
-      "albumName": "Delotto26",
-      "albumSlug": "delotto26",
-      "itemIndex": 16,
-      "indexTag": "#16",
-      "customTitle": "Delotto26 #16",
-      "category": "Landscape",
-      "detectedTheme": "Phong cảnh / Không gian (Landscape)",
-      "sortOrder": 0
-    },
-    {
       "id": "24671171bb",
       "slug": "10",
       "source": {
@@ -182,37 +213,6 @@
       "customTitle": "C!SV25 #02",
       "category": "Group",
       "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
-      "sortOrder": 0
-    },
-    {
-      "id": "6dd01e94bf",
-      "slug": "2",
-      "source": {
-        "fileId": "108ThwXyAf5TGWH0Qz21xt19UV8MjPo5T",
-        "name": "2",
-        "folderPath": "C!SV25",
-        "md5": "b3ee4831d24c22f89dd67e4d14268e87",
-        "mimeType": "image/jpeg",
-        "sizeBytes": 267266,
-        "modifiedTime": "2026-09-10T09:47:36.042Z"
-      },
-      "avif": "images/2-6dd01e94bf.avif",
-      "webp": "images/2-6dd01e94bf.webp",
-      "width": 1920,
-      "height": 1081,
-      "bytes": {
-        "avif": 69839,
-        "webp": 105950
-      },
-      "createdAt": "2026-09-10T08:19:35.626Z",
-      "syncedAt": "2026-09-10T09:49:13.852Z",
-      "albumName": "C!SV25",
-      "albumSlug": "c-sv25",
-      "itemIndex": 3,
-      "indexTag": "#03",
-      "customTitle": "C!SV25 #03",
-      "category": "Landscape",
-      "detectedTheme": "Phong cảnh / Không gian (Landscape)",
       "sortOrder": 0
     },
     {
@@ -1456,5 +1456,5 @@
       "sortOrder": 0
     }
   ],
-  "updatedAt": "2026-09-12T10:18:31.502Z"
+  "updatedAt": "2026-09-12T10:19:31.665Z"
 }
