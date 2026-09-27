@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-27T14:32:32.041Z",
-  "count": 47,
+  "generatedAt": "2026-09-27T19:56:19.783Z",
+  "count": 46,
   "albums": [
     {
       "slug": "c-sv25",
@@ -20,7 +20,7 @@
     {
       "slug": "random",
       "name": "Random",
-      "count": 6
+      "count": 5
     }
   ],
   "source": {
@@ -1453,37 +1453,6 @@
       "customTitle": "Random #05",
       "category": "Group",
       "detectedTheme": "Nhóm / Đời thường (Group & Scene)",
-      "sortOrder": 0
-    },
-    {
-      "id": "1481a86f1c",
-      "slug": "1",
-      "source": {
-        "fileId": "1PRjxJm8GE0HVzoyjBBmAexr5nPcOlYUh",
-        "name": "1.png",
-        "folderPath": "Random",
-        "md5": "f652aaa73525a0fcfe12c9ed3db8de08",
-        "mimeType": "image/png",
-        "sizeBytes": 12858525,
-        "modifiedTime": "2025-06-15T09:11:46.260Z"
-      },
-      "avif": "images/1-1481a86f1c.avif",
-      "webp": "images/1-1481a86f1c.webp",
-      "width": 1920,
-      "height": 1356,
-      "bytes": {
-        "avif": 30517,
-        "webp": 58204
-      },
-      "createdAt": "2026-09-27T14:31:36.610Z",
-      "syncedAt": "2026-09-27T14:32:22.394Z",
-      "albumName": "Random",
-      "albumSlug": "random",
-      "itemIndex": 6,
-      "indexTag": "#06",
-      "customTitle": "Random #06",
-      "category": "Nocturne",
-      "detectedTheme": "Đêm / Ánh sáng tự nhiên",
       "sortOrder": 0
     }
   ]
